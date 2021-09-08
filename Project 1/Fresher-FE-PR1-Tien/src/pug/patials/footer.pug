@@ -1,0 +1,55 @@
+footer.footer
+    //contact
+    .contact__container.container
+        .row.justify-content-between
+            //social icons
+            .left.d-flex.flex-column.justify-content-center
+                span.fw-bold KÊNH THÔNG TIN TỪ CHÚNG TÔI :
+                span.d-flex.justify-content-between.icons
+                    each icon in socialIcons
+                        a(class="icon__link" href="#")
+                            i(class=`fab fa-${icon}`)
+
+            // input
+            .right.row
+                .col-lg-4.col-md-4.d-flex.flex-column.justify-content-center
+                    span.fw-bold ĐĂNG KÝ NHẬN EMAIL TỪ CHÚNG TÔI
+                .col-lg-8.col-md-8
+                    +emailInput
+    hr
+    // content
+    .content__container.container
+        .row.justify-content-between
+            .left.content.d-flex.flex-column.justify-content-between
+                +brandName
+                p.content__p.
+                    Green shop được thành lập từ 8/2010 được sự tin tưởng của khách hàng trong suốt thời gian hoạt động đến nay cửa hàng ngày một phát triển
+                each contact in contacts
+                    .d-none.d-md-flex.mt-3
+                        i(class=`${contact.icon} icon`)
+                        span.ms-2= contact.content
+            .right.row.content.d-flex.justify-content-end
+                each item in footerNav
+                    if item.new
+                        .d-flex.flex-column.justify-content-between.link__new
+                            h3.h3.fw-bold= item.heading
+                            each link in item.links
+                                a(class="d-flex justify-content-start link")
+                                    i(class=`${arrowRight} me-2`)
+                                    span.link__item= link
+                    else
+                        .news.d-flex.flex-column.justify-content-between
+                            h3.h3.fw-bold= item.heading
+                            each link in item.links
+                                a(class="d-flex justify-content-start link")
+                                    i(class=`${arrowRight} me-2`)
+                                    span.link__item= link
+    hr.d-none.d-md-flex
+    // helper
+    .helper__container.container.d-none.d-md-flex.justify-content-between
+        .d-flex.justify-content-between.helper
+            each item in helper
+                span= item
+        .d-flex.justify-content-around.cards
+            each card in cards
+                i(class=`${card}`)

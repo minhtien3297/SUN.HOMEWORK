@@ -1,0 +1,216 @@
+.product__detail {
+  background-color: $white-color;
+
+  &__container {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+
+    .card {
+      border: none;
+
+      .product__img {
+        height: 100%;
+        padding: 0;
+      }
+
+      .card-body {
+        .card-title {
+          font-size: 2rem;
+        }
+
+        .product__price {
+          font-size: 1.3rem;
+        }
+
+        .product__discount {
+          @extend .product__price;
+        }
+
+        .product__content {
+          color: $gray-color;
+        }
+
+        .button__group {
+          width: 40%;
+
+          @include for-size(mobile) {
+            width: 60%;
+          }
+
+          .increase__button {
+            background-color: transparent;
+            padding: 1rem;
+            border: 1px solid $gray-color;
+            font-size: 0.7rem;
+          }
+
+          .decrease__button {
+            @extend .increase__button;
+          }
+
+          .quantity__button {
+            @extend .increase__button;
+
+            padding: 1rem 3rem;
+          }
+        }
+
+        .inputs {
+          width: 40%;
+
+          @include for-size(mobile) {
+            width: 60%;
+          }
+
+          .search__btn{
+            @include for-size(mobile) {
+              width: 4rem;
+              height: 4rem;
+            }
+          }
+        }
+
+        .social__group {
+          @include for-size(mobile) {
+            width: 60%;
+          }
+
+          .btn__social {
+            margin-right: 5px;
+
+            .icon {
+              font-weight: bold;
+
+              &:before {
+                margin-right: 5px;
+              }
+            }
+          }
+
+          .popup {
+            position: relative;
+            display: none;
+
+            &::before {
+              content: "";
+              position: absolute;
+              bottom: 25%;
+              left: -0.55em;
+              border: 0.5rem solid transparent;
+              border-left: none;
+              border-right-color: #fff;
+              filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, 1));
+            }
+          }
+
+          @each $name, $color in $social-share-color {
+            .#{$name}__color {
+              background-color: $color;
+              color: $white-color;
+
+              &:hover + .popup {
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                color: $black-color;
+                border: 1px solid $black-color;
+                border-radius: 4px;
+                width: 2rem;
+                margin-right: 0.5rem;
+                margin-left: 0.5rem;
+                -webkit-border-radius: 4px;
+                -moz-border-radius: 4px;
+                -ms-border-radius: 4px;
+                -o-border-radius: 4px;
+              }
+
+              @if $name == "google" {
+                background-color: $white-color;
+                color: $color;
+                border: 1px solid $black-color;
+
+                .fa-google-plus-g {
+                  font-size: 1.1rem;
+
+                  &:before {
+                    margin-right: 0px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .nav {
+      margin-top: 5rem;
+
+      .nav-link {
+        color: $black-color;
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 1rem 5rem;
+        text-transform: uppercase;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+
+        @include for-size(mobile){
+          font-size: 1rem;
+          padding: 1rem 1.5rem;
+        }
+
+        &:focus {
+          color: $green-color;
+          border-top: 2px solid $black-color;
+        }
+      }
+    }
+
+    .tab-content {
+      margin-bottom: 5rem;
+
+      .tab-pane {
+        border-top: transparent;
+        border-bottom: 1px solid $light-gray-color;
+        border-left: 1px solid $light-gray-color;
+        border-right: 1px solid $light-gray-color;
+        padding: 3rem;
+        padding-bottom: 0px;
+
+        .text {
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+
+  .album {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0px;
+
+    .img-fluid {
+      height: 5rem !important;
+    }
+  }
+
+  .similar__products {
+    position: relative;
+
+    .button__ctrl {
+      position: absolute;
+      display: flex;
+      width: 2rem;
+      top: -4rem;
+      right: 1rem;
+
+      .arrow {
+        color: $gray-color;
+      }
+    }
+  }
+}

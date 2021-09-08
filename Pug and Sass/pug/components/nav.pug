@@ -1,0 +1,23 @@
+mixin navLink
+    each item in navItems
+        a.item__link(href=`#${item}`)= item
+
+nav(class="nav container")
+    div.nav__item
+        <!-- logo -->
+        a(href="#" class="logo")
+            img.nav__img(src="../../img/icon/logo.png" alt="logo")
+
+        <!-- nav-item -->
+        .nav__link
+            +navLink
+
+        <!-- hamburger menu -->
+        a(class="menu__btn" href="#menu")
+            span(class="material-icons") menu
+
+        <!-- nav-item -->
+        #menu.nav__menu
+            +navLink
+
+    button(class="btn nav__btn") Get Free Quote

@@ -1,0 +1,181 @@
+// brand name
+mixin brandName
+    .brand__name.container.d-flex.flex-column&attributes(attributes)= name
+        span
+            |Green
+            span(class="brand__name--font") Shop
+        span(class="brand__sub ms-3") Món quà từ thiên nhiên
+
+// email input
+mixin emailInput(placeholder)
+    form.email__input
+        .input-group
+            input(type="text" class="input" placeholder=placeholder)
+            span(class="input-group-text")
+                i(class=`${paperPlaneIcon}`)
+
+// product card
+mixin productCardVertical(src, alt, name, price, discount)
+    .card.rounded-0.h-100.product__card--vertical.product__card&attributes(attributes)
+        .container-fluid
+            img(src=src class="card-img-top" alt=alt)
+            .card-img-overlay.rounded-0
+                .container.d-flex.justify-content-center
+                    button.rounded-pill.buy__btn.me-2 MUA NGAY
+                    button.rounded-circle.search__btn
+                        i(class=`${magnifyIcon}`)
+        .card-body.d-flex.flex-column.align-items-center
+            a.card-title(href="product-detail.html")= name
+            p.card-text.mb-2
+                - for (var i = 0; i < 4; i++) {
+                    i(class=`product__star ${fullStar}`)
+                - }
+                i(class=`product__star ${halfStar}`)
+            .d-flex
+                span.me-2.product__price= price
+                span.product__discount= discount
+
+mixin productCardHorizontal(src, alt, name, price, discount)
+    .card.product__card.product__card--horizontal.rounded-0&attributes(attributes)
+        .row.g-0
+            .col-4.product__img
+                img(src=src class="img-fluid rounded-start" alt=alt)
+            .col-8
+                .card-body
+                    a.card-title(href="product-detail.html")= name
+                    p.card-text.mb-2
+                        - for (var i = 0; i < 4; i++) {
+                            i(class=`product__star ${fullStar}`)
+                        - }
+                        i(class=`product__star ${halfStar}`)
+                    block
+                    span.me-2.product__price= price
+                    if block
+                        .container.d-flex.justify-content-start.mt-3
+                            .d-flex.justify-content-between.inputs
+                                button.rounded-pill.buy__btn.me-2 MUA NGAY
+                                button.rounded-circle.border.border-dark.search__btn
+                                    i(class=`${magnifyIcon}`)
+                                button.rounded-circle.border.border-dark.search__btn
+                                    i(class=`${heartIcon}`)
+
+// section label
+mixin sectionLabel(label, width)
+    .section__label
+        span.label(style=`width: ${width}rem`)= label
+        .progress
+            .progress-bar(role="progressbar")(style=`width: ${width}rem`)
+
+// news card
+mixin newsCard(src, alt, time, title, content)
+    .card.h-100.rounded-0.news__cards
+        img.img-fluid(src=src class="card-img-top" alt=alt)
+        .card-body
+            p.card-text.time= time
+            h5.card-title= title
+            p.card-text= content
+            a.link(href="#") Đọc tiếp
+
+// filter option
+mixin filterOption(content)
+    .filter__option&attributes(attributes)
+        i(class=`icon ${arrowRight} me-2`)
+        a.content(href="#.")= content
+
+// color filter
+mixin colorFilter(name, color)
+    .d-flex.align-items-center.color__filter
+        span(class=`${color}__color me-3`)
+        span.name= name
+
+// breadcrumb
+mixin breadcrumb(items, current)
+    .container&attributes(attributes)
+        nav(aria-label="breadcrumb")
+            ol.breadcrumb
+                each item in items
+                    li.breadcrumb-item
+                        a.breadcrumb__link(href=`${item.link}.html`)=  item.name
+
+                if current
+                    li.breadcrumb-item
+                        a.breadcrumb__link__current=  current
+
+//pagination
+mixin pagination
+    nav.mt-5.d-flex.justify-content-end(aria-label="Page navigation example")
+        ul.pagination
+            li.page-item
+                a(class="page-link" href="#." onclick="prevPage()") Trang trước
+            #pagesPagination.d-flex
+            li.page-item
+                a(class="page-link" href="#." onclick="nextPage()") Trang sau
+
+// news
+mixin news(number,header=false)
+    .card&attributes(attributes)
+        if header
+            .card-header
+                h5.card-title= newThumbnails[number].content
+                .d-flex.justify-content-start
+                    each icon in newIcon
+                        .d-flex.me-4.justify-content-between.align-items-center.icon__group
+                            i(class=`${icon.icon} icon`)
+                            span.content= icon.content
+        .card-body
+            a(href="info-detail.html")
+                img(src=`${newThumbnails[number].src}` class="card-img-top" alt=`${newThumbnails[number].alt}`)
+            p.card-text.mt-4 Như thể hiện sự thân thiện cũng như sự hiếu khách của gia chủ, phần không gian trước cửa nhà luôn được đầu tư và trang trí khá bắt mắt. Cũng có thể nói đây là bộ mặt của ngôi nhà, là ấn tượng đầu tiên khi một vị khách ghé chơi nhà bạn đấy. Hãy cùng Sài Gòn Hoa tham khảo một vài cách bố trí chậu cây hoa cảnh ngay trước cửa nhà sao cho ấn tượng nhất nhé!
+            block
+
+// comment
+mixin comment(name)
+    .card.comment
+        .row.g-0&attributes(attributes)
+            .col-2.d-flex.align-items-center
+                .zoom
+            .col-10
+                .card-body
+                    .row
+                        .col-10.p-0
+                            h5.card-title= name
+                            p.card-text.content.my-3 This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+                            p.card-text.content Thứ 7, 26/12/2015 12: 00 AM
+                        .col-2.p-0.text-end
+                            a.reply(href="#") Trả lời
+
+// button
+mixin button(name)
+    button.rounded-pill.form__btn&attributes(attributes)= name
+
+// toast
+mixin toast(message)
+    .toast.align-items-center(role="alert" aria-live="assertive" aria-atomic="true")&attributes(attributes)
+        .d-flex
+            .toast-body= message
+            button(type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close")
+
+// modal
+mixin modal(message)
+    .checkForm.modal.fade#exampleModal(tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true")
+        .modal-dialog.modal-dialog-centered
+            .modal-content
+                .modal-header
+                    h5.modal-title#exampleModalLabel Xác nhận
+                    button(type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close")
+                .modal-body= message
+                .modal-footer
+                    button(type="button" class="btn reject bg-secondary text-white" data-bs-dismiss="modal") Không
+                    button(type="button" class="btn confirm text-white" data-bs-dismiss="modal" onclick="clearTable()") Đồng ý
+
+// form
+mixin input(label, type, name, checkbox = false)
+    .input__form
+        if checkbox
+            input.input(type=type name=name)
+            label.label(for=name)= label
+        else
+            label.label(for=name)= label
+                span.star.ms-1 *
+            input.input.mt-2(type=type name=name required)&attributes(attributes)
+            p.text-danger.mt-3.validate

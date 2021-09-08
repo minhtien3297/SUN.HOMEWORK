@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./main.css" rel="stylesheet">
+
+    <title>Appy</title>
+</head>
+
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top px-4 py-4">
+        <div class="container-fluid d-flex justify-content-between">
+            <!-- logo -->
+            <a class="navbar-brand" href="#">
+                <img class="navbar__img" src="./img/logo/ezgif.com-gif-maker.png" alt="appy logo"></a>
+
+            <!-- nav-item -->
+            <ul class="navbar-nav mb-2 mb-lg-0 d-none d-md-flex  justify-content-around">
+                <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#contacts">Contacts</a>
+                </li>
+            </ul>
+
+            <!-- signup button -->
+            <form class="d-none d-md-flex">
+                <a class="nav__btn btn rounded-pill text-white">SIGN UP</a>
+            </form>
+
+            <!-- hamburger menu -->
+            <a class="btn menu__btn d-block d-md-none" href="#menu"><span class="material-icons">
+                    menu
+                </span></a>
+
+
+            <!-- nav-item -->
+            <ul class="menu__nav" id="menu">
+                <li class="menu__item">
+                    <a class="menu__link text-white" href="#home">Home</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link text-white" href="#about">About</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link text-white" href="#features">Features</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link text-white" href="#pricing">Pricing</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link text-white" href="#contacts">Contacts</a>
+                </li>
+                </label>
+        </div>
+    </nav>
+
+    <!-- home -->
+    <section id="home" class="home">
+        <div class="container home__container d-flex justify-content-between row">
+            <!-- phone -->
+            <figure class="d-none d-lg-block col-lg-3">
+                <img class="phone fade-in-4" src="./img/phone/phone-frame/ezgif.com-gif-maker.png"
+                    alt="phone with weather screen">
+            </figure>
+
+            <!-- content -->
+            <div class="col-xs-12 col-md-7 d-flex flex-column flex-wrap justify-content-around home__content">
+                <h1 class="text-white fw-light fade-in-4">Start your amazing stuff through appy.</h1>
+
+                <p class="content text-white fw-light fade-in-4">Lorem ipsum dolor sit amet, consectetur adipiing elit,
+                    sed do
+                    eiusmod
+                    tempor
+                    incididunt ut labore et
+                    laborused sed do eiusmod tempor incididunt ut labore et laborused.</p>
+
+                <div class="home__btn">
+                    <button
+                        class="btn btn-light home__btn--color rounded-pill d-flex align-items-center justify-content-between text-uppercase fade-in-4"><span
+                            class="material-icons icon--margin">
+                            file_download
+                        </span>
+                        Download App
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section id="about" class="about">
+        <div class="container text-center about__container">
+            <!-- logo -->
+            <figure class="text-center">
+                <img src="./img/logo/ezgif.com-gif-maker (1).png" alt="logo">
+
+                <figcaption class="my-5 logo__caption text-uppercase">About Appy</figcaption>
+            </figure>
+
+            <!-- content -->
+            <h3 class="about__h3 text-center mb-5">A beautiful app for consectetur adipisicing elit, sed do eiusmod
+                tempor
+                incididunt
+                ut mollit anim id est
+                laborum. Sedut perspiciatis unde omnis. </h3>
+
+            <p class="p text-center">Lorem ipsum dolor sit amet, consectetur adipiing elit, sed do eiusmod tempor
+                incididunt ut labore et
+                laborused sed do eiusmod tempor incididunt ut labore et laborused.</p>
+        </div>
+    </section>
+
+    <!-- features -->
+    <section id="features" class="features">
+        <div class="container features__container d-flex justify-content-around">
+            <!-- content -->
+            <div class="col-xs-12 col-md-6 d-flex flex-column flex-wrap justify-content-evenly features__content">
+                <p class="my-5 features__caption">OUR PROGRESS</p>
+
+                <h2 class="text-dark fw-light features__h2 ">Grat Application Ever</h2>
+
+                <p class="content fw-light p w-75 ">Lorem ipsum dolor sit amet, consectetur adipiing elit, sed do
+                    eiusmod
+                    tempor
+                    incididunt ut labore et
+                    laborused sed do eiusmod tempor incididunt ut labore et laborused.</p>
+
+                <div class="home__btn">
+                    <a class="btn learn__more__btn--color rounded-pill">LEARN MORE
+                    </a>
+                </div>
+            </div>
+
+            <!-- phone -->
+            <figure class="d-none d-md-block col-md-6 position-relative">
+                <img class="phone features__phone" src="./img/phone/phone-frame/ezgif.com-gif-maker (4).png"
+                    alt="phone with weather screen">
+            </figure>
+        </div>
+    </section>
+
+    <!-- pricing -->
+    <section id="pricing" class="pricing">
+        <div class="pricing__container container text-center">
+            <p class="my-5 logo__caption text-uppercase">pricing plan</p>
+
+            <h2 class="text-dark pricing__h2">Our Awesome Pricing Plan</h2>
+
+            <!-- card -->
+            <div class="pricing__cards container d-flex justify-content-evenly">
+                <!-- rocket -->
+                <div class="card">
+                    <div class="card-header"><i class="icon fas fa-rocket"></i>
+                        <h3 class="card__h3">FREE</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul class="card-text">
+                            <li>Easy Installations</li>
+                            <li>Unlimited support</li>
+                            <li>Uniqe Elements</li>
+                        </ul>
+
+                        <div class="price__rate">
+                            <sup class="unit">$</sup>
+                            <span class="rate">0</span>
+                            <small>/Month</small>
+                        </div>
+
+                        <button class="btn learn__more__btn--color rounded-pill mb-5">PURCHASE</button>
+                    </div>
+                </div>
+
+                <!-- diamond -->
+                <div class="card">
+                    <div class="card-header"><i class="icon far fa-gem"></i>
+                        <h3 class="card__h3">MEDIUM</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul class="card-text">
+                            <li>Easy Installations</li>
+                            <li>Unlimited support</li>
+                            <li>Uniqe Elements</li>
+                        </ul>
+
+                        <div class="price__rate">
+                            <sup class="unit">$</sup>
+                            <span class="rate">49</span>
+                            <small>/Month</small>
+                        </div>
+
+                        <button class="btn learn__more__btn--color rounded-pill mb-5">PURCHASE</button>
+                    </div>
+                </div>
+
+                <!-- pie -->
+                <div class="card">
+                    <div class="card-header"><i class="icon fas fa-chart-pie"></i>
+                        <h3 class="card__h3">BUSINESS</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul class="card-text">
+                            <li>Easy Installations</li>
+                            <li>Unlimited support</li>
+                            <li>Uniqe Elements</li>
+                        </ul>
+
+                        <div class="price__rate">
+                            <sup class="unit">$</sup>
+                            <span class="rate">99</span>
+                            <small>/Month</small>
+                        </div>
+
+                        <button class="btn learn__more__btn--color rounded-pill mb-5">PURCHASE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contacts -->
+    <section id="contacts" class="contacts">
+        <div class="container text-center">
+            <p class="my-5 logo__caption text-uppercase">contact us</p>
+
+            <h2 class="text-dark pricing__h2">Find Us By Bellow Details</h2>
+
+            <!-- icons -->
+            <div class="contacts_icon container d-flex justify-content-evenly ">
+                <!-- location -->
+                <div class="icon__box">
+                    <div class="contact__icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+
+                    <p class="content fw-light p mt-5">8-54 Paya Lebar Square
+                        <br>
+                        60 Paya Lebar Roa SG, Singapore
+                    </p>
+                </div>
+
+                <!-- phone -->
+                <div class="icon__box">
+                    <div class="contact__icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+
+                    <p class="content fw-light p mt-5">+65 93901336
+                        <br>
+                        +65 93901337
+                    </p>
+                </div>
+
+                <!-- mail -->
+                <div class="icon__box">
+                    <div class="contact__icon">
+                        <i class="far fa-envelope"></i>
+                    </div>
+
+                    <p class="content fw-light p mt-5">yourmail@gmail.com
+                        <br>
+                        backpiper.com@gmail.com
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="position-relative">
+        <div class="footer__container container text-center w-100 d-flex justify-content-between">
+            <!-- copyright -->
+            <span class="container footer__copyright">
+                Copyright © 2021 All rights reserved
+            </span>
+
+            <!-- nav-link -->
+            <div class="container">
+                <ul class="footer__nav d-flex justify-content-around">
+                    <li class="nav__item">
+                        <a class="nav__link" href="#home">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#about">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#features">Features</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#pricing">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+mixin toast(h3)
+    .toast
+        img.toast__img(src="../../img/icon/ezgif.com-gif-maker (3).png" alt="cloud icon")
+
+        .toast__content
+            h3.toast__h3= h3
+            p.toast__p Naxly bring the power of data science and artificial intelligence to every business.
+
+section#Features.features
+    div(class="features__container container")
+        // background picture
+        figure
+            img(class="features__img" src="../../img/background/ezgif.com-gif-maker (4).png" alt="three girls")
+
+            // toast
+            figcaption(class="features__figcaption toast")
+                img.figcaption__img(src="../../img/icon/ezgif.com-gif-maker (3).png" alt="cloud icon")
+
+                .toast__content
+                    h3.toast__h3 New Features
+                    p.toast__p You have received notification
+
+        // content
+        .features__content
+            h2.features__title
+                |   Grow your
+                br
+                |  business fast.
+
+            // toasts
+            each h3 in cloudH3
+                +toast(h3)
+
+            // button
+            button(class="btn content__btn") Learn More

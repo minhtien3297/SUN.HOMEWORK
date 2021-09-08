@@ -1,0 +1,136 @@
+.info {
+  background-color: $white-color;
+
+  &__container {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+
+    .card__link {
+      text-decoration: none;
+      color: $gray-color;
+    }
+
+    .side__bar {
+      margin-top: 2rem;
+
+      .thumbnail {
+        background-color: transparent;
+        border: none;
+
+        .card-body {
+          padding-top: 0px;
+
+          .card-title {
+            line-height: 2rem;
+          }
+        }
+      }
+
+      .blog__tag {
+        .btn {
+          padding-right: 1.5rem;
+          padding-left: 1.5rem;
+          margin-bottom: 0.5rem;
+
+          &:focus,
+          &:hover {
+            color: $white-color;
+            background-color: $green-color;
+            box-shadow: none;
+          }
+        }
+      }
+    }
+
+    .news {
+      @include for-size(mobile) {
+        margin-top: 4rem;
+      }
+
+      .card {
+        background-color: transparent;
+        border: none;
+        margin-bottom: 3rem;
+
+        .card-header {
+          background-color: transparent;
+          padding-top: 0;
+          line-height: 1.5rem;
+          border: none;
+
+          .card-title {
+            color: $dim-gray-color;
+            font-size: 1.3rem;
+          }
+
+          .icon__group {
+            .icon {
+              color: $green-color;
+              margin-right: 0.5rem;
+            }
+
+            .content {
+              color: $gray-color;
+            }
+          }
+        }
+
+        .card-body {
+          .card-text {
+            line-height: 1.5rem;
+            color: $gray-color;
+          }
+        }
+      }
+    }
+
+    .comment {
+      margin-bottom: 0px !important;
+
+      .margin-left {
+        margin-left: 20%;
+      }
+
+      .row {
+        .zoom {
+          background-image: url("../assets/img/avatar/download.jpg");
+          width: 6rem;
+          height: 6rem;
+          background-size: cover;
+          background-position: center;
+          border-radius: 50%;
+          transform: scaleX(-1);
+        }
+
+        .card-body {
+          padding-top: 2rem;
+
+          .content {
+            font-size: 0.7rem;
+          }
+        }
+
+        .reply {
+          color: $black-color;
+          font-size: 1rem;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .border-top {
+      border-top: 1px solid $black-color !important;
+    }
+
+    // form
+    .form {
+      padding: 1rem 8% 1rem 1rem;
+
+      @include for-size(mobile) {
+        padding-right: 1%;
+      }
+
+      border: 1px solid $gray-color;
+    }
+  }
+}

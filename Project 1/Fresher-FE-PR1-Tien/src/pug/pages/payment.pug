@@ -1,0 +1,32 @@
+extends ../layouts/default-layout.pug
+
+block title
+    title Thông Tin Thanh Toán
+
+block content
+    section#payment.payment
+        // breadcrumb
+        +breadcrumb([{link:"index",name:"Home"}], "Thông tin thanh toán")(class="mt-5")
+
+        // content
+        .container.payment__container
+            form#submit.row.my-5
+                .row.mt-5
+                    .col-md-6
+                        +input("Tên khách hàng","text","text")(class ="paymentInput")
+                    .col-md-6
+                        +input("Số điện thoại","number","number")(class ="paymentInput")
+
+                .row.mt-5
+                    .col-md-6
+                        +input("Email","email","email")(class ="paymentInput" id="emailPayment")
+                    .col-md-6
+                        +input("Địa chỉ","text","text")(class ="paymentInput")
+
+                .d-flex.justify-content-center.align-items-center.mt-5
+                    a(href="cart.html")
+                        +button("Quay lại")(type="button")
+                    a(href="#.")
+                        +button("Thanh toán")(class="ms-3")(onclick="paymentSubmit()")
+            .d-flex.justify-content-center.align-items-center.my-5
+                +brandName

@@ -1,0 +1,36 @@
+extends ../layouts/default-layout.pug
+
+block title
+    title Đăng Nhập
+
+block content
+    section#sign-in.sign__in
+        // breadcrumb
+        +breadcrumb([{link:"index",name:"Home"}], "Đăng nhập")(class="mt-5")
+
+        // sign-in section
+        .container.sign__in__container
+            .row
+                .d-row.col-md-6
+                    h2.title--green THÔNG TIN CÁ NHÂN
+                    form.mt-5
+                        +input("Email của bạn", "email", "email")
+                        .mt-5
+                            +input("Mật khẩu", "password", "password")
+                        .d-flex.justify-content-start.mt-5
+                            .d-flex.justify-content-between
+                                +input("Ghi nhớ tài khoản", "checkbox", "save account",true)(class="checkbox")
+                                a.pass__forget(href="#") Bạn quên mật khẩu?
+
+                    // sign in button
+                    .d-flex.justify-content-start.mt-5
+                        +button("ĐĂNG NHẬP")
+                hr.d-block.d-md-none.mt-5
+                .d-row.col-md-6
+                    h2.title--green BẠN CHƯA CÓ TÀI KHOẢN ?
+                    p.mt-5 Đăng ký tài khoản ngay để có thể mua hàng nhanh chóng và dễ dàng hơn  ! Ngoài ra còn có rất nhiều chính sách và ưu đãi cho các thành viên citybike
+                    // sign in button
+                    .d-flex.justify-content-start.mt-5
+                        a(href="sign-up.html")
+                            +button("ĐĂNG KÝ")
+

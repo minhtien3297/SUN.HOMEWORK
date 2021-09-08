@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+/* font */
+$font-stack: "Mulish", sans-serif;
+
+/* color */
+$deep-blue-color: #00095e;
+$black-color: #0c0c1f;
+$white-color: white;
+$pink-color: #ff4495;
+$orange-color: #ff6d6d;
+$gray-color: #f6f9fc;
+$purple-color: rgba(0, 9, 94, 0.4);
+$light-blue-color: rgba(255, 255, 255, 0.06);
+$light-gray-color: rgba(255, 255, 255, 0.2);
+
+/* media */
+$media-4K: "only screen and (max-width : 2560px)";
+$media-laptop-L: "only screen and (max-width : 1440px)";
+$media-laptop: "only screen and (max-width : 1024px)";
+$media-tablet: "only screen and (max-width : 768px)";
+$media-mobile: "only screen and (max-width : 425px)";
+$media-mobile-m: "only screen and (max-width : 375px)";
+$media-mobile-s: "only screen and (max-width : 320px)";

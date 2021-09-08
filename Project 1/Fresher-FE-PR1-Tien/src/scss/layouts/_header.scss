@@ -1,0 +1,172 @@
+.header {
+  color: $gray-color;
+
+  // top menu
+  .top__menu {
+    background-color: $black-color;
+    height: 3rem;
+
+    // icons
+    .icon__link {
+      @extend .header;
+      border: 1px solid;
+      border-color: $black-color $light-black-color;
+      padding: 0 1rem;
+      text-decoration: none;
+    }
+
+    // open time
+    &--left {
+      width: 55%;
+    }
+  }
+
+  // main menu
+  .main__menu {
+    background-color: $light-gray-color;
+
+    // background img
+    .img-fluids {
+      font-size: 3rem;
+    }
+
+    .bg__img1 {
+      height: 6rem;
+      margin-top: 3rem;
+    }
+
+    .bg__img2 {
+      height: 14rem;
+      position: absolute;
+      left: 60px;
+      top: -33px;
+
+      @include for-size(laptop) {
+        left: 40px;
+        top: -24px;
+      }
+
+      @include for-size(tablet) {
+        left: 29px;
+        top: -16px;
+      }
+    }
+
+    // search input
+    .phone__number {
+      padding-left: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .search__input {
+      width: 29rem;
+      padding: 1rem;
+      padding-left: 2rem;
+      border: none;
+      margin-top: 1rem;
+    }
+
+    .search__icon {
+      position: absolute;
+      top: 22px;
+      right: 50px;
+      border-left: 1px solid $light-gray-color;
+      height: 40px;
+      padding-left: 20px;
+
+      @include for-size(laptop) {
+        top: 12px;
+      }
+
+      &::before {
+        position: absolute;
+        top: 13px;
+        right: -20px;
+
+        @include for-size(tablet) {
+          top: 7px;
+        }
+      }
+    }
+
+    // shopping basket
+    .basket__container {
+      margin-top: 2rem;
+      padding: 9px;
+
+      .basket__icon {
+        @include for-size(laptop) {
+          margin-left: 2rem;
+        }
+      }
+    }
+  }
+
+  // navbar
+  .navbar {
+    background-color: $green-color;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    .menu__btn {
+      color: $white-color;
+      background: transparent;
+      border: none;
+      font-size: 1.5rem;
+      margin-right: 2rem;
+      box-shadow: none;
+    }
+
+    .search__cart {
+      font-size: 1.5rem;
+      padding: 1.5rem 1.5rem;
+
+      .icon {
+        text-decoration: none;
+        color: $white-color;
+      }
+    }
+
+    .navbar-brand {
+      @extend .menu__btn;
+    }
+
+    .nav-link {
+      color: $white-color;
+      text-transform: uppercase;
+      padding: 1.2rem 2rem;
+
+      &:hover {
+        background-color: $dim-green-color;
+      }
+    }
+
+    .dropdown-menu {
+      background-color: $green-color;
+      margin-top: 0px;
+      padding: 0px;
+      border-top: 0px;
+      border-radius: 0px;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      -ms-border-radius: 0px;
+      -o-border-radius: 0px;
+
+      .dropdown-item {
+        color: $white-color;
+        padding: 1rem 0px;
+        display: flex;
+        justify-content: center;
+
+        &:hover {
+          color: $white-color;
+          background-color: $dim-green-color;
+        }
+      }
+    }
+
+    .popup {
+      cursor: pointer;
+    }
+  }
+}

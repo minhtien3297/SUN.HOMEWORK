@@ -1,0 +1,30 @@
+section#Contact.contact
+    .container
+        .contact__container
+            img.contact__img(src="../../img/icon/ezgif.com-gif-maker (9).png" alt="logo")
+            p.content Duis aute irure dolor inasfa reprehenderit in voluptate velit esse cillum
+            p.phone__number 10 (87) 738-3940
+            a.email(href="#") contact@it-kol.com
+
+        .navigation__container
+            h4.title Navigation
+
+            each link in navItems
+                a.nav__link(href=`#${link}`)= link
+
+        .services__container
+            h4.title Services
+
+            each link in serviceLinks
+                a.nav__link(href="#")= link
+
+        .subscribe__container
+            h4.title Subscribe newsletter
+            p.content Subscribe our newsletter to get updates about our services and offers.
+            form
+                input.input(type="text" placeholder="Email Address")
+
+            ul.social
+                each icon in socialIcons
+                    li.icon
+                        i(class=`fab fa-${icon}`)

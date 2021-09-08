@@ -1,0 +1,33 @@
+extends ../layouts/info-layout.pug
+
+block new
+    .col-12.col-md-8.news
+        // new detail
+        +news(0,true)(class="mb-0")
+            each item in newDetail
+                p.card-text.mt-4= item
+        +news(1)
+
+        // comments
+        h3.fw-bold BÌNH LUẬN (3)
+        each user,index in users
+            if index == 0
+                +comment(user.name)
+            else
+                if user.subCmt
+                    +comment(user.name,)(class="border-top margin-left")
+                else
+                    +comment(user.name,)(class="border-top")
+        div.border-top
+
+        // form
+        h3.fw-bold.mt-5 VIẾT BÌNH LUẬN:
+        form
+            .d-flex.justify-content-between.mt-3
+                input.form(type="text" placeholder="Họ và tên:")
+                input.form(type="email" placeholder="Email")
+                input.form(type="number" placeholder="Phone:")
+            .mt-3
+                textarea.form.w-100(placeholder="Bình luận:" rows="4")
+            .text-end.mt-3
+                +button("Gửi")

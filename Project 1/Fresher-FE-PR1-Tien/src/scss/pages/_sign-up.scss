@@ -1,0 +1,16 @@
+.sign__up {
+  background-color: $white-color;
+
+  &__container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    .button__group {
+      width: 25%;
+
+      @include for-size(mobile) {
+        width: 50%;
+      }
+    }
+  }
+}

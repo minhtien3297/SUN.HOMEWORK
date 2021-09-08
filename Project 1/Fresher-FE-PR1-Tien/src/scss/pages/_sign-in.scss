@@ -1,0 +1,23 @@
+.sign__in {
+  background-color: $white-color;
+
+  &__container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    .star {
+      display: none;
+    }
+
+    .pass__forget {
+      color: $gray-color;
+      margin-left: 1rem;
+    }
+
+    .title--green {
+      @include for-size(mobile) {
+        margin-top: 2rem;
+      }
+    }
+  }
+}

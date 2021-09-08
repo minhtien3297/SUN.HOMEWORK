@@ -1,0 +1,16 @@
+.modal.fade#staticBackdrop(data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true")
+    .modal-dialog.modal-dialog-centered
+        .modal-content.rounded-0
+            .modal-header.position-relative
+                button(type="button" class="btn__close" data-bs-dismiss="modal" aria-label="Close")
+                    i(class=`${closeBtn}`)
+            .modal-body
+                .row
+                    .col-5.col-md-4
+                        img.img-fluid(src=popup.src alt= popup.alt)
+                    .col-7.col-md-8
+                        h3.sub-title Nhận tin tức từ chúng tôi
+                        h2.title--green.my-3 ĐĂNG KÝ EMAIL NGAY HÔM NAY
+                        +emailInput("Nhập email của bạn vào đây")
+                        p.my-3 Đăng ký email ngay hôm nay để nhận các thông tin về sự kiện và các chương trình giảm giá từ chúng tôi
+                        +input("Không hiển thị lại thông báo này nữa", "checkbox", "stop popup",true)(class="checkbox")

@@ -1,0 +1,73 @@
+extends ../layouts/default-layout.pug
+
+block title
+    title Tin Tức
+
+block content
+    section#info.info
+        // breadcrumb
+        +breadcrumb([{link:"index",name:"Home"}], "Tin tức")(class="mt-4")
+
+        // content
+        .container.info__container
+            .row
+                // sidebar
+                .d-none.d-md-block.col-4.side__bar
+                    // product sort list
+                    +sectionLabel("Danh mục sản phẩm","14")
+                    each product in productList
+                        +filterOption(product)
+
+                    // popular news
+                    .wrapper
+                        +sectionLabel("Tin tức nổi bật","14")
+                        each item in newThumbnails
+                            .card.thumbnail.mt-3
+                                a.card__link(href="info-detail.html")
+                                    .row.g-0
+                                        .col-md-4
+                                            img(src=`${item.src}` class="img-fluid rounded-start" alt=`${item.alt}`)
+                                        .col-md-8
+                                            .card-body
+                                                h5.card-title= item.content
+
+                    // blog tag
+                    .wrapper.blog__tag
+                        +sectionLabel("Blog Tag","7")
+                        .mt-3
+                            each tag in blogTag
+                                button(type="button" class="btn btn-outline-secondary rounded-0")= tag
+
+                // sidebar (mobile)
+                .d-block.d-md-none.mt-3.accordion#accordionExample1
+                    // product sort list
+                    a(class="w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour")
+                        +sectionLabel("Danh mục sản phẩm","14")
+                    #collapseFour(class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample")
+                        each product in productList
+                            +filterOption(product)
+
+                    // popular news
+                    a(class="w-100 mt-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive")
+                        +sectionLabel("Tin tức nổi bật","10")
+                    #collapseFive(class="accordion-collapse collapse show" aria-labelledby="headingFive" data-bs-parent="#accordionExample")
+                        each item in newThumbnails
+                            .card.thumbnail.mt-3
+                                a.card__link(href="info-detail.html")
+                                    .row.g-0
+                                        .col-4
+                                            img(src=`${item.src}` class="img-fluid rounded-start" alt=`${item.alt}`)
+                                        .col-8
+                                            .card-body
+                                                h5.card-title= item.content
+
+                    // blog tag
+                    a(class="w-100 mt-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix")
+                        +sectionLabel("Blog Tag","6")
+                    #collapseSix(class="accordion-collapse collapse show" aria-labelledby="headingSix" data-bs-parent="#accordionExample")
+                        .mt-3
+                            each tag in blogTag
+                                button(type="button" class="btn btn-outline-secondary rounded-0 mt-2")= tag
+
+                // content
+                block new

@@ -1,0 +1,38 @@
+extends ../layouts/default-layout.pug
+
+block title
+    title Liên Hệ
+
+block content
+    section#contact.contact
+        // breadcrumb
+        +breadcrumb([{link:"index",name:"Home"}], "Liên hệ")(class="mt-5")
+
+        // map
+        iframe.google__map(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.7392973744472!2d105.80781821483487!3d21.043114892664196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab16d341b9d7%3A0xcc64460aeb4db35c!2sSun%20School!5e0!3m2!1svi!2shk!4v1629469623724!5m2!1svi!2shk" allowfullscreen)
+
+        // contact
+        .container.contact__container
+            .row
+                .d-row.col-md-6
+                    h2.title--green THÔNG TIN LIÊN HỆ
+                    form.mt-5
+                        +input("Họ và tên", "text", "name")
+                        .mt-5
+                            +input("Địa chỉ email", "email", "email")
+                        .mt-5
+                            +input("Số ĐT", "number", "phone")
+                        .mt-5
+                            .input__form
+                                label.label(for="comment") Bình luận
+                                    span.star.ms-1 *
+                                textarea.form.w-100.mt-2(name="comment" rows="25")
+                .d-row.col-md-6
+                    +brandName
+                    .ms-3
+                        p.my-5.
+                            DKT được thành lập với niềm đam mê và khát vọng thành công trong lĩnh vực Thương mại điện tử.Chúng tôi đã và đang khẳng định được vị trí hàng đầu bằng những sản phẩm
+                        each contact in contacts
+                            .mt-3
+                                i(class=`${contact.icon} icon`)
+                                span.ms-2= contact.content

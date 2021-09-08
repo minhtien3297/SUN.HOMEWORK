@@ -1,0 +1,24 @@
+.contact {
+  background-color: $white-color;
+
+  .google__map {
+    width: 100%;
+    height: 30rem;
+  }
+
+  &__container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    .input__form {
+      .form {
+        border: 1px solid $light-gray-color;
+      }
+    }
+
+    .icon {
+      color: $green-color;
+      font-size: 1.2rem;
+    }
+  }
+}

@@ -1,0 +1,170 @@
+extends ../layouts/default-layout.pug
+
+block title
+    title Trang Chủ
+
+block content
+    section#main.main
+        // sliders
+        #carouselExampleIndicators.carousel.slide(data-bs-ride="carousel")
+            .carousel-indicators
+                each img,index in sliders
+                    if img.active
+                        button(type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to=index class="active" aria-current="true")
+
+                    else
+                        button(type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to=index)
+            .carousel-inner
+                each img in sliders
+                    if img.active
+                        .carousel-item.active
+                            img(src=img.src class="d-block w-100" alt=img.alt)
+
+                    else
+                        .carousel-item
+                            img(src=img.src class="d-block w-100" alt=img.alt)
+
+        // product highlight
+        .container.main__container
+            +sectionLabel('Sản phẩm nổi bật','12')
+            .grid__container.mt-5
+                - for (var i = 0; i < 6; i++) {
+                    if i==0
+                        +productCardVertical(products[i].src, products[i].alt, products[i].name, products[i].price, products[i].discount)(class="grid__start card__badge__new")
+                    else if i==5
+                        +productCardVertical(products[i].src, products[i].alt, products[i].name, products[i].price, products[i].discount)(class="grid__end card__badge__discount")
+                    else
+                        +productCardVertical(products[i].src, products[i].alt, products[i].name, products[i].price, products[i].discount)
+                - }
+
+        // sale products and top-sale products
+        .container.main__container
+            .row.d-none.d-md-flex
+                // top-sale products
+                .col-4
+                    +sectionLabel('Sản phẩm mua nhiều','15')
+                    .mt-5
+                        - for (var i = 0; i < 6; i++) {
+                            +productCardHorizontal(products[i].src, products[i].alt, products[i].name, products[i].price, products[i].discount)
+                        - }
+
+                // sale products
+                .col-8.sale__products
+                    +sectionLabel('Sản phẩm khuyến mãi','15')
+                    .mt-5
+                        #carouselExampleFade.carousel.slide.carousel-fade(data-bs-ride="carousel")
+                            .carousel-inner
+                                .carousel-item.active
+                                    .row.row-cols-1.row-cols-3.g-4
+                                        - for (var i = 0; i < 6; i++) {
+                                            .col
+                                                +productCardVertical(products[i].src, products[i].alt, products[i].name, products[i].price, products[i].discount)(class="card__badge__discount")
+                                        - }
+                                .carousel-item
+                                    .row.row-cols-1.row-cols-3.g-4
+                                        - for (var i = 6; i < 12; i++) {
+                                            .col
+                                                +productCardVertical(products[i].src, products[i].alt, products[i].name, products[i].price, products[i].discount)(class="card__badge__discount")
+                                        - }
+                            .button__ctrl
+                                button.carousel-control-prev(type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev")
+                                    i(class=`arrow ${prevArrow}`)
+                                button.carousel-control-next(type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next")
+                                    i(class=`arrow ${nextArrow}`)
+
+            // top-sale products (mobile)
+            .container.top__sale__products.d-block.d-md-none
+                +sectionLabel('Sản phẩm mua nhiều','15')
+                .mt-5
+                    #carouselExampleFade2.carousel.slide.carousel-fade(data-bs-ride="carousel")
+                        .carousel-inner
+                            .carousel-item.active
+                                - for (var i = 0; i < 3; i++) {
+                                    +productCardHorizontal(products[i].src, products[i].alt, products[i].name, products[i].price, products[i].discount)
+                                - }
+                            .carousel-item
+                                - for (var i = 3; i < 6; i++) {
+                                    +productCardHorizontal(products[i].src, products[i].alt, products[i].name, products[i].price, products[i].discount)
+                                - }
+
+                        .button__ctrl
+                            button.carousel-control-prev(type="button" data-bs-target="#carouselExampleFade2" data-bs-slide="prev")
+                                i(class=`arrow ${prevArrow}`)
+                            button.carousel-control-next(type="button" data-bs-target="#carouselExampleFade2" data-bs-slide="next")
+                                i(class=`arrow ${nextArrow}`)
+
+            // sale products (mobile)
+            .container.sale__products.d-block.d-md-none
+                +sectionLabel('Sản phẩm khuyến mãi','15')
+                .mt-5
+                    #carouselExampleFade3.carousel.slide.carousel-fade(data-bs-ride="carousel")
+                        .carousel-inner
+                            each product in products
+                                if product.active
+                                    .carousel-item.active
+                                        +productCardVertical(product.src, product.alt, product.name, product.price, product.discount)(class="card__badge__discount")
+                                else
+                                    .carousel-item
+                                        +productCardVertical(product.src, product.alt, product.name, product.price, product.discount)(class="card__badge__discount")
+                        .button__ctrl
+                            button.carousel-control-prev(type="button" data-bs-target="#carouselExampleFade3" data-bs-slide="prev")
+                                i(class=`arrow ${prevArrow}`)
+                            button.carousel-control-next(type="button" data-bs-target="#carouselExampleFade3" data-bs-slide="next")
+                                i(class=`arrow ${nextArrow}`)
+
+        // cover
+        .container.main__container
+            img.img-fluid.cover(src=cover.src alt=cover.alt)
+
+        // new products
+        .container.main__container.d-none.d-md-block
+            +sectionLabel('Sản phẩm mới','10')
+            .mt-5.new__products
+                #carouselExampleFade1.carousel.slide.carousel-fade(data-bs-ride="carousel")
+                    .carousel-inner
+                        .carousel-item.active
+                            .row.row-cols-1.row-cols-4.g-4
+                                - for (var i = 0; i < 8; i++) {
+                                    .col
+                                        +productCardVertical(products[i].src, products[i].alt, products[i].name, products[i].price, products[i].discount)(class="card__badge__new")
+                                - }
+                        .carousel-item
+                            .row.row-cols-1.row-cols-4.g-4
+                                - for (var i = 6; i < 14; i++) {
+                                    .col
+                                        +productCardVertical(products[i].src, products[i].alt, products[i].name, products[i].price, products[i].discount)(class="card__badge__new")
+                                - }
+                    .button__ctrl
+                        button.carousel-control-prev(type="button" data-bs-target="#carouselExampleFade1" data-bs-slide="prev")
+                            i(class=`arrow ${prevArrow}`)
+                        button.carousel-control-next(type="button" data-bs-target="#carouselExampleFade1" data-bs-slide="next")
+                            i(class=`arrow ${nextArrow}`)
+
+        // new products (mobile)
+        .container.main__container.d-block.d-md-none
+            +sectionLabel('Sản phẩm mới','10')
+            .mt-5.new__products
+                #carouselExampleFade4.carousel.slide.carousel-fade(data-bs-ride="carousel")
+                    .carousel-inner
+                        each product in products
+                            if product.active
+                                .carousel-item.active
+                                    +productCardVertical(product.src, product.alt, product.name, product.price, product.discount)(class="card__badge__new")
+                            else
+                                .carousel-item
+                                    +productCardVertical(product.src, product.alt, product.name, product.price, product.discount)(class="card__badge__new")
+
+                    .button__ctrl
+                        button.carousel-control-prev(type="button" data-bs-target="#carouselExampleFade4" data-bs-slide="prev")
+                            i(class=`arrow ${prevArrow}`)
+                        button.carousel-control-next(type="button" data-bs-target="#carouselExampleFade4" data-bs-slide="next")
+                            i(class=`arrow ${nextArrow}`)
+
+        // news
+        .container.main__container.d-none.d-md-block
+            +sectionLabel('Tin tức','8')
+            .row.row-cols-1.row-cols-3.g-4.mt-3
+                each item in news
+                    .col
+                        +newsCard(item.src, item.alt, item.time, item.title, item.content)
+

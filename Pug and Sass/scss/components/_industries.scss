@@ -1,0 +1,106 @@
+/* industries */
+@mixin flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+@mixin font($color, $size) {
+  color: $color;
+  font-size: $size;
+}
+
+.industries {
+  background: linear-gradient(to right, $black-color 0%, $deep-blue-color 100%);
+  height: auto;
+
+  &__container {
+    @include flex(space-between, center, column);
+    height: 70%;
+    padding-top: 13rem;
+    padding-bottom: 13rem;
+
+    /* header */
+    .industries__header {
+      @include flex(space-between, center, row);
+
+      .industries__title {
+        width: 40%;
+        .h2__sub {
+          @include font($pink-color, 1.5rem);
+          margin-bottom: 1rem;
+        }
+
+        .title {
+          @include font($white-color, 4rem);
+        }
+      }
+
+      .industries__content {
+        @include font($white-color, 1.8rem);
+        width: 40%;
+        line-height: 3rem;
+      }
+    }
+
+    /* cards */
+    .industries__cards {
+      @include flex(space-between, center, row);
+      width: 100%;
+      margin-top: 3rem;
+
+      .card {
+        border: 1px solid $light-gray-color;
+        text-align: center;
+        padding: 4rem;
+        width: 15%;
+        transition: all 0.4s ease-out 0s;
+        cursor: pointer;
+
+        .card__content {
+          @include font($white-color, 2rem);
+          margin-top: 2rem;
+        }
+      }
+
+      .card:hover {
+        background: $light-blue-color;
+        border: 1px solid transparent;
+      }
+
+      /* 4K responsive */
+      @media #{$media-4K} {
+        .card {
+          width: 13%;
+        }
+      }
+
+      /* mobile responsive */
+      @media #{$media-mobile} {
+        .card {
+          width: 100%;
+          margin-top: 20px;
+        }
+      }
+    }
+
+    /* mobile responsive */
+    @media #{$media-mobile} {
+      .industries__cards {
+        flex-direction: column;
+      }
+    }
+
+    /* support */
+    .industries__support {
+      @include font($white-color, 2rem);
+      margin-top: 3rem;
+    }
+
+    .getStarted {
+      @include font($white-color, 1.5rem);
+      margin-left: 1rem;
+    }
+  }
+}

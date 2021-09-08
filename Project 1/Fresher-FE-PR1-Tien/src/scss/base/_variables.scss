@@ -1,0 +1,60 @@
+// fonts
+@font-face {
+  font-family: Roboto;
+  src: url("../assets/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: MonteCarlo;
+  src: url("../assets/fonts/MonteCarlo/MonteCarlo-Regular.ttf")
+    format("truetype");
+}
+
+// fonts
+$main-font: Roboto;
+$logo-font: MonteCarlo;
+
+// color
+$popup-color:#F0EEEA;
+$background-color:#fbf9f9;
+$white-color: #ffffff;
+$black-color: #202020;
+$light-black-color: #2b2b2b;
+$gray-color: #7b7b7b;
+$dim-gray-color: #313131;
+$light-gray-color: #ededed;
+$footer-gray-color: #b7b7b7;
+$opacity-gray-color: rgba(187, 187, 187, 0.4);
+$green-color: #3fb871;
+$dim-green-color: #36a66d;
+$yellow-color: #febf01;
+$red-color: #ed1c24;
+
+// color sort list
+$sort-colors: (
+  "green": #98cb4a,
+  "orange": #f76d3c,
+  "purple": #913ccd,
+  "blue": #5481e6,
+  "yellow": #f7d842,
+  "pink": #f15f74,
+);
+
+// social share button color
+$social-share-color:(
+  "facebook":#5979ce,
+  "twitter":#1da1f2,
+  "google":#db4437,
+  "blogger":#fe6e4c,
+);
+
+// media queries
+$breakpoints: (
+  mobile-sm: 320px,
+  mobile-md: 375px,
+  mobile: 425px,
+  tablet: 768px,
+  laptop: 1024px,
+  laptop-lg: 1440px,
+  4k: 2560px,
+);

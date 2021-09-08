@@ -1,0 +1,433 @@
+// brand name
+.brand__name {
+  color: $green-color;
+  font-size: 5rem;
+  width: 67%;
+  padding-left: 0;
+  margin-left: 0;
+
+  @include for-size(mobile) {
+    align-items: center !important;
+    width: 100%;
+    padding-bottom: 1rem;
+    font-size: 8rem;
+  }
+
+  &--font {
+    font-family: $logo-font;
+  }
+
+  .brand__sub {
+    color: $gray-color;
+    font-size: 1.5rem;
+
+    @include for-size(mobile) {
+      color: $green-color;
+      margin-left: -2rem !important;
+      font-size: 2.3rem;
+    }
+  }
+}
+
+// email input
+.email__input {
+  .input-group {
+    .input {
+      padding: 1rem 17rem 1rem 1rem;
+      border: none;
+
+      @include for-size(mobile) {
+        padding-right: 7rem;
+      }
+      @include for-size(mobile-md) {
+        padding-right: 3rem;
+      }
+      @include for-size(mobile-sm) {
+        padding-right: 8rem;
+      }
+    }
+
+    .input-group-text {
+      background-color: $green-color;
+      border: none;
+      color: $white-color;
+      border-radius: 0;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      -ms-border-radius: 0;
+      -o-border-radius: 0;
+      padding: 0 18px;
+    }
+  }
+}
+
+// product card
+.product__card {
+  .container-fluid {
+    padding: 0px;
+    position: relative;
+
+    .card-img-overlay {
+      display: none;
+    }
+  }
+
+  .card-title {
+    text-decoration: none;
+    color: $black-color;
+  }
+
+  .product__star {
+    color: $yellow-color;
+    font-size: 0.8rem;
+    margin-right: 4px;
+
+    @include for-size(mobile) {
+      font-size: 1.5rem;
+      margin-top: 1.8rem;
+      margin-bottom: 1.8rem;
+    }
+  }
+
+  .product__price {
+    color: $red-color;
+    font-weight: bold;
+  }
+
+  .product__discount {
+    color: $gray-color;
+    text-decoration: line-through;
+    font-weight: bold;
+  }
+
+  &:hover {
+    .card-img-overlay {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $opacity-gray-color;
+
+      .buy__btn {
+        background-color: $green-color;
+        color: $white-color;
+        border: none;
+        height: 3rem;
+        width: 9rem;
+      }
+
+      .search__btn {
+        @extend .buy__btn;
+
+        background-color: $white-color;
+        color: $black-color;
+        width: 3rem;
+      }
+    }
+  }
+}
+
+.product__card--vertical {
+  .card-body {
+    padding: 14% 1rem;
+
+    @include for-size(mobile) {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.product__card--horizontal {
+  width: 100%;
+
+  .product__img {
+    padding: 1rem;
+  }
+
+  .card-body {
+    @include for-size(mobile) {
+      font-size: 1.5rem;
+    }
+
+    .card-title {
+      @include for-size(mobile) {
+        font-size: 1.8rem;
+      }
+    }
+
+    .inputs {
+      width: 50%;
+
+      @include for-size(mobile) {
+        width: 75%;
+      }
+
+      .buy__btn {
+        background-color: $green-color;
+        color: $white-color;
+        border: none;
+        height: 3rem;
+        width: 10rem;
+      }
+
+      .search__btn {
+        @extend .buy__btn;
+
+        background-color: $white-color;
+        color: $black-color;
+        width: 3rem;
+      }
+    }
+  }
+}
+
+.card__badge__new:after {
+  position: absolute;
+  content: "NEW";
+  color: $white-color;
+  background-color: $green-color;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  top: 20px;
+  left: 20px;
+}
+
+.card__badge__discount:after {
+  @extend .card__badge__new;
+
+  background-color: $red-color;
+  content: "50%";
+}
+
+// section label
+.section__label {
+  position: relative;
+
+  .label {
+    position: absolute;
+    font-weight: bold;
+    color: $green-color;
+    top: -30px;
+    font-size: 1.5rem;
+
+    @include for-size(tablet) {
+      top: -20px;
+    }
+  }
+
+  .progress {
+    height: 2px;
+  }
+
+  .progress-bar {
+    background-color: $green-color;
+  }
+}
+
+// news card
+.news__cards {
+  border: none;
+
+  .img-fluid {
+    height: 11rem;
+  }
+
+  .card-body {
+    padding: 1rem 0rem;
+
+    .time {
+      font-style: italic;
+    }
+
+    .card-title {
+      margin-bottom: 15px;
+      color: $green-color;
+      font-weight: bold;
+    }
+
+    .card-text {
+      color: $gray-color;
+      line-height: 1.5rem;
+      margin-bottom: 15px;
+    }
+
+    .link {
+      text-decoration: none;
+      color: $green-color;
+    }
+  }
+}
+
+// filter option
+.filter__option {
+  display: flex;
+  align-items: baseline;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid $gray-color;
+
+  .icon {
+    font-size: 0.7rem;
+  }
+
+  .content {
+    text-decoration: none;
+    color: $gray-color;
+
+    &:focus {
+      color: $green-color;
+      font-weight: bold;
+    }
+  }
+}
+
+// color filter
+.color__filter {
+  @each $name, $color in $sort-colors {
+    .#{$name}__color {
+      background-color: $color;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+    }
+  }
+}
+
+// breadcrumb
+.breadcrumb {
+  &__link {
+    text-decoration: none;
+    color: $gray-color;
+
+    &__current,
+    &__current:hover {
+      @extend .breadcrumb__link;
+
+      color: $green-color;
+    }
+
+    &:hover {
+      @extend .breadcrumb__link;
+    }
+  }
+}
+
+// pagination
+.pagination {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+
+  @include for-size(mobile) {
+    width: 100%;
+  }
+
+  .page-item {
+    box-shadow: none;
+
+    .page-link {
+      padding: 1rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      color: $gray-color;
+
+      @include for-size(mobile) {
+        padding: 1rem 2rem;
+      }
+
+      &:focus {
+        background-color: $green-color;
+        color: $white-color;
+      }
+    }
+  }
+}
+
+// button form
+.form__btn {
+  background-color: $green-color;
+  color: $white-color;
+  border: none;
+  height: 3rem;
+  width: 9rem;
+
+  &:hover {
+    background-color: $white-color;
+    color: $green-color;
+    border: 1px solid $green-color;
+  }
+}
+
+// form
+.input__form {
+  @include for-size(mobile) {
+    margin-top: 1rem;
+  }
+
+  .label,
+  .input {
+    display: block;
+  }
+
+  .label {
+    .star {
+      color: $red-color;
+    }
+  }
+
+  .input:not([type="checkbox"]) {
+    border: 1px solid $light-gray-color;
+    padding: 1rem;
+    width: 100%;
+  }
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+
+  .label {
+    margin-left: 1rem;
+
+    @include for-size(mobile) {
+      font-size: 1.5rem;
+    }
+  }
+
+  .star {
+    display: none;
+  }
+}
+
+//toast
+.toast-container {
+  top: 87vh;
+
+  .toast {
+    width: 400px;
+
+    .toast-body {
+      padding: 1.75rem;
+      font-size: 1.1rem;
+    }
+  }
+}
+
+// modal
+.checkForm {
+  .confirm {
+    background-color: $green-color;
+  }
+}

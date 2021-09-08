@@ -1,0 +1,28 @@
+// bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// base
+@import "base/reset";
+@import "base/variables";
+@import "base/mixins";
+@import "base/global";
+@import "base/placeholders";
+
+// component
+@import "components/component";
+
+// layouts
+@import "layouts/header";
+@import "layouts/footer";
+@import "layouts/popup";
+
+// pages
+@import "pages/main";
+@import "pages/product-list";
+@import "pages/product-detail";
+@import "pages/info";
+@import "pages/cart";
+@import "pages/contact";
+@import "pages/sign-in";
+@import "pages/sign-up";
+@import "pages/payment"

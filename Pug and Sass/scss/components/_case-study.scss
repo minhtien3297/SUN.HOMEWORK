@@ -1,0 +1,159 @@
+/* case study */
+.case__study {
+  margin-bottom: 0 !important;
+  border-bottom: 1px solid $black-color;
+  height: 60%;
+
+  &__container {
+    text-align: center;
+
+    .case__study__h2 {
+      font-size: 4rem;
+      margin-bottom: 5rem;
+    }
+
+    .case__study__cards {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .card {
+        position: relative;
+        cursor: pointer;
+
+        .background {
+          position: relative;
+          max-width: 100%;
+          transition: all 0.4s ease-out 0s;
+        }
+
+        &:hover .background {
+          filter: blur(4px);
+        }
+
+        .layout {
+          width: 100%;
+          z-index: 1;
+          top: 0;
+          position: absolute;
+          background-color: $purple-color;
+          border-radius: 8px;
+          height: 100%;
+          -webkit-border-radius: 8px;
+          -moz-border-radius: 8px;
+          -ms-border-radius: 8px;
+          -o-border-radius: 8px;
+          transition: all 0.4s ease-out 0s;
+        }
+
+        &:hover .layout {
+          background-color: $pink-color;
+          opacity: 0.5;
+        }
+
+        .label {
+          position: absolute;
+          text-align: center;
+          z-index: 2;
+          height: 100%;
+          width: 100%;
+          top: 35%;
+          color: $white-color;
+
+          .circle {
+            width: 23px;
+            height: 23px;
+            background: $white-color;
+            color: $white-color;
+            border-radius: 30px;
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+          }
+
+          .title {
+            font-size: 4rem;
+          }
+
+          .content {
+            font-size: 2rem;
+          }
+
+          .icon {
+            width: 3rem;
+          }
+        }
+
+        .caption {
+          position: absolute;
+          font-size: 2rem;
+          font-weight: 700;
+        }
+      }
+
+      /* 4K responsive */
+      @media #{$media-4K} {
+        .card {
+          width: 17%;
+        }
+      }
+
+      /* laptop L responsive */
+      @media #{$media-laptop-L} {
+        .card {
+          width: 30%;
+        }
+      }
+
+      /* mobile responsive */
+      @media #{$media-mobile} {
+        .card {
+          width: 94%;
+          margin-bottom: 7rem;
+        }
+      }
+    }
+
+    /* 4K responsive */
+    @media #{$media-4K} {
+      .case__study__cards {
+        justify-content: space-evenly;
+      }
+    }
+
+    /* mobile responsive */
+    @media #{$media-mobile} {
+      .case__study__cards {
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+/* 4K responsive */
+@media #{$media-4K} {
+  .case__study {
+    height: 45%;
+  }
+}
+
+/* Laptop L responsive */
+@media #{$media-laptop-L} {
+  .case__study {
+    height: 60%;
+  }
+}
+
+/* tablet responsive */
+@media #{$media-tablet} {
+  .case__study {
+    height: 45%;
+  }
+}
+
+/* mobile responsive */
+@media #{$media-mobile} {
+  .case__study {
+    height: auto;
+  }
+}

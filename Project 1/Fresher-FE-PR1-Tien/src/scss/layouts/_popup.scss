@@ -1,0 +1,51 @@
+.modal {
+  .modal-dialog {
+    max-width: 56rem;
+
+    .modal-content {
+      background-color: $popup-color;
+
+      .modal-header {
+        border: none;
+
+        .btn__close {
+          color: $green-color;
+          border: none;
+          position: absolute;
+          right: 1rem;
+        }
+      }
+
+      .modal-body {
+        .sub-title {
+          color: $gray-color;
+          font-size: 2rem;
+
+          @include for-size(mobile) {
+            font-size: 1.5rem;
+          }
+        }
+
+        .title {
+          @include for-size(mobile) {
+            font-size: 1.5rem;
+          }
+        }
+
+        .email__input {
+          .input {
+            @include for-size(mobile) {
+              padding-right: 3rem !important;
+            }
+          }
+        }
+
+        .label {
+          @include for-size(mobile) {
+            font-size: 1.3rem;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,200 @@
+.footer {
+  margin-top: auto;
+  width: 100%;
+  background-color: $dim-gray-color;
+  color: $gray-color;
+
+  .row {
+    @include for-size(mobile) {
+      flex-direction: column;
+    }
+  }
+
+  .right {
+    width: 64%;
+    @include for-size(4k) {
+      width: 65%;
+    }
+
+    @include for-size(mobile) {
+      width: 100%;
+    }
+  }
+
+  .left {
+    width: 36%;
+
+    @include for-size(mobile) {
+      width: 100%;
+    }
+  }
+
+  .d-flex {
+    @include for-size(mobile) {
+      align-items: flex-start;
+    }
+  }
+
+  // contact
+  .contact__container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1rem;
+
+    @include for-size(mobile) {
+      font-size: 2rem;
+      padding: 4rem 2rem;
+    }
+
+    .left {
+      @include for-size(mobile) {
+        margin-bottom: 3rem;
+      }
+    }
+
+    .fw-bold {
+      margin-bottom: 1rem;
+
+      @include for-size(mobile) {
+        margin-bottom: 1.5rem;
+        color: $green-color;
+      }
+    }
+
+    .icons {
+      width: 25%;
+
+      @include for-size(mobile) {
+        width: 60%;
+      }
+
+      .icon__link {
+        text-decoration: none;
+        color: $gray-color;
+
+        .fab {
+          font-size: 1.5rem;
+
+          @include for-size(mobile) {
+            font-size: 2rem;
+            color: $white-color;
+          }
+        }
+      }
+    }
+
+    .right {
+      @include for-size(mobile) {
+        margin-bottom: 1rem;
+      }
+
+      .fw-bold {
+        width: 70%;
+        line-height: 2rem;
+
+        @include for-size(mobile) {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  //content
+  .content__container {
+    @extend .contact__container;
+    padding-top: 1rem;
+    color: $footer-gray-color;
+    font-size: 1rem;
+
+    .content {
+      height: auto;
+
+      &__p {
+        line-height: 2rem;
+        font-size: 0.9rem;
+        width: 86%;
+
+        @include for-size(mobile) {
+          font-size: 1.5rem;
+          width: 100%;
+          line-height: 3rem;
+        }
+      }
+
+      .h3 {
+        color: $green-color;
+        font-size: 1.1rem;
+
+        @include for-size(mobile) {
+          font-size: 2rem;
+        }
+      }
+
+      .link {
+        text-decoration: none;
+        color: $footer-gray-color;
+
+        &:hover {
+          .link__item {
+            text-decoration: underline;
+          }
+        }
+
+        @include for-size(mobile) {
+          margin-top: 1rem;
+          margin-bottom: 1rem;
+        }
+      }
+
+      .icon {
+        color: $green-color;
+        font-size: 1.2rem;
+      }
+
+      .news {
+        width: 28.3%;
+        margin-top: 3rem;
+
+        @include for-size(4k) {
+          width: 28.23%;
+        }
+
+        @include for-size(mobile) {
+          width: 100%;
+          font-size: 1.5rem;
+          margin-top: 5rem;
+        }
+      }
+
+      .link__new {
+        width: 15%;
+        margin-top: 3rem;
+
+        @include for-size(4k) {
+          width: 15.3%;
+        }
+
+        @include for-size(mobile) {
+          width: 100%;
+          font-size: 1.5rem;
+          margin-top: 5rem;
+        }
+      }
+    }
+  }
+
+  //helper
+  .helper__container {
+    @extend .content__container;
+
+    .helper {
+      width: 50%;
+      font-size: 1rem;
+    }
+
+    .cards {
+      width: 15%;
+      font-size: 1.5rem;
+    }
+  }
+}

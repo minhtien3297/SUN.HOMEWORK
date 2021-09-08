@@ -1,0 +1,22 @@
+mixin caseStudyCard(src)
+    figure.card
+        img.background(src=src alt="using laptop")
+
+        .layout
+
+        .label
+            span.circle
+            h4.title inspire
+            p.content design studio
+            img.icon(src="../../img/icon/ezgif.com-gif-maker (8).png" alt="logo")
+
+        figcaption.caption The Security Risks of Changing Package Owners
+
+section#Case-Study.case__study
+    div(class="case__study__container container")
+        h2.case__study__h2 Some of Our Great Stuffs
+
+        // cards
+        .case__study__cards
+            each img in caseStudyImg
+                +caseStudyCard(img)

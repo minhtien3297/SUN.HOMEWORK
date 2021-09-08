@@ -1,0 +1,40 @@
+extends ../layouts/default-layout.pug
+
+block title
+    title Đăng Ký
+
+block content
+    section#sign-up.sign__up
+        // breadcrumb
+        +breadcrumb([{link:"index",name:"Home"}], "Đăng ký")(class="mt-5")
+
+        // personal information
+        .container.sign__up__container
+            h2.title--green THÔNG TIN CÁ NHÂN
+            .row.mt-5
+                .d-row.col-md-6
+                    +input("Họ và tên", "text", "name")
+                .d-row.col-md-6
+                    +input("Số ĐT", "number", "phone")
+            .row.mt-5
+                .d-row.col-md-6
+                    +input("Địa chỉ email", "email", "email")
+                .d-row.col-md-6
+                    +input("Website của bạn", "text", "web")
+            .row.mt-5
+                +input("Đăng ký nhận thông tin qua email", "checkbox", "register email",true)(class="checkbox")
+
+        // account information
+        .container.sign__up__container
+            h2.title--green THÔNG TIN TÀI KHOẢN
+            .row.mt-5
+                .d-row.col-md-6
+                    +input("Mật khẩu", "password", "password")
+                .d-row.col-md-6
+                    +input("Nhập lại mật khẩu", "password", "password again")
+
+            // button group
+            .d-flex.justify-content-start.mt-5
+                .d-flex.justify-content-between.button__group
+                    +button("QUAY LẠI")
+                    +button("ĐĂNG KÝ")

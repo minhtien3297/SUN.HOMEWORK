@@ -1,0 +1,65 @@
+html {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+
+  @include for-size(4k) {
+    font-size: 16px;
+  }
+  @include for-size(laptop) {
+    font-size: 11px;
+  }
+  @include for-size(tablet) {
+    font-size: 8px;
+  }
+  @include for-size(mobile) {
+    font-size: 10px;
+  }
+  @include for-size(mobile-sm) {
+    font-size: 7px;
+  }
+}
+
+body {
+  font-family: $main-font;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+// dipose border inputs
+input {
+  outline: none;
+}
+
+section {
+  height: auto;
+  background-color: $background-color;
+}
+
+.wrapper {
+  margin-top: 5rem;
+}
+
+.wrapper--bottom {
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+
+  @include for-size(tablet) {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.title--green {
+  color: $green-color;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.text--green {
+  color: $green-color;
+}

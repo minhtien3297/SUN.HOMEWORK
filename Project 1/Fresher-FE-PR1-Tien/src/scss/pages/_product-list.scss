@@ -1,0 +1,72 @@
+.product__list {
+  .product__list__container {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+
+    .cover {
+      background-image: url("../assets/img/news/The_Sill_84_Hester.jpg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      width: 100%;
+      height: 14rem;
+    }
+
+    .nav {
+      &-link {
+        color: $gray-color;
+        background-color: transparent;
+        font-size: 1.5rem;
+
+        &:focus {
+          color: $green-color;
+        }
+      }
+    }
+
+    .sort__inputs {
+      .sort {
+        padding: 0.7rem 1.7rem 0.7rem 0.5rem;
+        appearance: none;
+        color: $gray-color;
+      }
+
+      .select {
+        position: relative;
+
+        &:after {
+          font-size: 1.5rem;
+          content: "▾";
+          position: absolute;
+          right: 1.2rem;
+          top: 0.5rem;
+          z-index: 1;
+          text-align: center;
+          width: 10%;
+          height: 100%;
+          pointer-events: none;
+        }
+      }
+    }
+
+    .tab-pane {
+      .tab-img {
+        .product__img {
+          padding: 0px;
+        }
+
+        .img-fluid {
+          height: 100%;
+        }
+
+        .card-title {
+          font-size: 1.8rem;
+        }
+
+        .product__price {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}

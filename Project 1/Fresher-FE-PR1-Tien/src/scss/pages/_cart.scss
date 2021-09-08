@@ -1,0 +1,71 @@
+.cart {
+  background-color: $white-color;
+
+  &__container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    .table {
+      text-align: center;
+      font-size: 1.5rem;
+
+      @include for-size(mobile) {
+        font-size: 0.7rem;
+      }
+
+      &,
+      th,
+      td {
+        border: 1px solid $light-gray-color;
+        border-collapse: collapse;
+      }
+
+      td,
+      th {
+        vertical-align: middle;
+        width: 12rem;
+      }
+
+      .thead {
+        background-color: $green-color;
+        color: $white-color;
+        height: 4rem;
+      }
+
+      .text--green {
+        text-transform: uppercase;
+      }
+
+      .trash{
+        cursor: pointer;
+      }
+
+      .tfoot {
+        @extend .thead;
+      }
+    }
+
+    .total__table {
+      td,
+      th {
+        height: 7rem;
+
+        @include for-size(mobile) {
+          height: 4rem;
+        }
+      }
+
+      .text--green {
+        text-transform: none;
+      }
+    }
+
+    .button__group {
+      width: 25%;
+
+      @include for-size(mobile) {
+        width: 50%;
+      }
+    }
+  }
+}

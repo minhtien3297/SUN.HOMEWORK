@@ -1,0 +1,31 @@
+
+
+section#Industries.industries
+    div(class="industries__container container")
+        // title
+        div.industries__header
+            div.industries__title
+                p.h2__sub Industries We Serve
+                h2.title IT services customized for your industry
+
+            p.industries__content No matter the business, NanoSoft has you covered with industry compliant solutions, customized to your company’s specific needs.
+
+        // cards
+        .industries__cards
+            // boxes
+            +industryCard(boxesIcon.src, boxesIcon.alt, boxesIcon.content)
+
+            // education
+            +industryCard(educationIcon.src, educationIcon.alt, educationIcon.content)
+
+            // shopping
+            +industryCard(shoppingIcon.src, shoppingIcon.alt, shoppingIcon.content)
+
+            // plane
+            +industryCard(planeIcon.src, planeIcon.alt, planeIcon.content)
+
+        // support
+        p.industries__support Need a Technology support?
+            |
+            a.getStarted(href="#") Get Started Now
+

@@ -1,0 +1,91 @@
+header.header
+    // top menu
+    .top__menu.d-none.d-md-flex
+        .top__menu__container.container.d-flex.justify-content-between.h-100
+            // open time, social icons
+            .top__menu--left.d-flex.h-100
+                // open time
+                .container.d-flex.align-items-center
+                    i(class="far fa-clock me-2")
+                    span Open time: 8:00 - 18:00 Monday - Sunday
+
+                // social Icons
+                .container.d-flex.h-100
+                    each icon in socialIcons
+                        a(class="icon__link d-flex align-items-center")
+                            i(class=`fab fa-${icon}`)
+
+            //sign-in, sign-up
+            .top__menu--right.d-flex
+                each user in userIcons
+                    a(href=user.link class="icon__link d-flex align-items-center")
+                        i(class=`fas fa-${user.icon}`)
+                        span.ms-1= user.text
+
+    // main menu
+    .main__menu
+        .d-flex.container.justify-content-between
+            // logo
+            .container.d-flex.align-items-center
+                +brandName
+
+                // flowers
+                .d-none.d-md-flex.container.position-relative.ms-0.ps-0
+                    img(class="img-fluid bg__img1" src=bgImg1 alt="flowers")
+                    img(class="img-fluid bg__img2" src=bgImg2 alt="flowers")
+
+            // inputs
+            .container.d-none.d-md-flex.align-items-center.justify-content-between
+                // search input, telephone
+                .container
+                    span.phone__number
+                        i(class= `${phoneIcon} me-2`)
+                        | HỖ TRỢ :  (04) 6674 2332 - (04) 3786 8904
+
+                    form.position-relative
+                        input(type="text" class="search__input rounded-pill" placeholder="Tìm kiếm")
+                        i(class=`${magnifyIcon} search__icon`)
+
+                // shopping basket
+                .container.d-flex.basket__container.justify-content-between
+                    a(href="cart.html")
+                        i(class=`${shoppingBasketIcon} text-dark fs-5 basket__icon`)
+                    span#countProducts.fs-6.mt-1
+
+    // navbar
+    nav(class="navbar navbar-expand-lg sticky-top")
+        .container.navbar__container
+            a(class="navbar-brand ms-2 d-none d-lg-block" href="#")
+                i(class=`${menu}`)
+
+            // menu button
+            button(class="navbar-toggler menu__btn ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation")
+                i(class=`${menu}`)
+
+            // search and cart
+            .d-flex.d-md-none.search__cart
+                a(class="icon" href="#")
+                    i(class=`${magnifyIcon} me-4`)
+                a(class="icon" href="#")
+                    i(class=`${shoppingBasketIcon}`)
+
+            // list
+            .collapse.navbar-collapse#navbarNav
+                ul(class="navbar-nav")
+                    each link in navLink
+                        // drop-down
+                        if link.list
+                            li(class="nav-item dropdown")
+                                a(class="nav-link dropdown-toggle" href=`${link.id}.html` id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false")= link.name
+                                ul(class="dropdown-menu container-fluid" aria-labelledby="navbarDropdownMenuLink")
+                                    li
+                                        a(class="dropdown-item" href=`${link.id}.html`)= link.pages
+                        else if link.popup
+                            // popup
+                            li(class="nav-item popup")
+                                a(class="nav-link" data-bs-toggle="modal" data-bs-target="#staticBackdrop")= link.name
+
+                        else
+                            // nav-link
+                            li(class="nav-item")
+                                a(class="nav-link" href=`${link.id}.html`)= link.name

@@ -1,0 +1,22 @@
+mixin serviceCard(src, alt, title)
+    .card
+        figure.card__icon
+            img(src=src alt=alt)
+        h3.card__title=title
+        p.card__content Naxly bring the power of data science and artificial intelligence to every business.
+
+section#Services.services
+    .services__title
+        p.h2__sub Our Services
+        h2.title__h2 IT Solutions for startup and enterprises
+
+    // cards
+    div(class="services__cards container")
+        // stack
+        +serviceCard(stackIcon.src, stackIcon.alt, stackIcon.title)
+
+        //cube
+        +serviceCard(cubeIcon.src, cubeIcon.alt, cubeIcon.title)
+
+        //shield
+        +serviceCard(shieldIcon.src, shieldIcon.alt, shieldIcon.title)

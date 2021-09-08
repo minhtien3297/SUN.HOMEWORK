@@ -1,0 +1,48 @@
+include mixins/mixin.pug
+doctype html
+html
+    head
+        link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+
+        link(rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+            integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+            crossorigin="anonymous")
+
+        meta(name="viewport"
+            content="width=device-width, initial-scale=1")
+
+        link(href="../../css/main.css" rel="stylesheet")
+
+        title IT-Solution
+
+    body
+        // Constants
+        include constants/constant.pug
+ 
+        // nav
+        include components/nav.pug
+
+        // home
+        include components/home.pug
+
+        // services
+        include components/services.pug
+
+        // features
+        include components/features.pug
+
+        // industries
+        include components/industries.pug
+
+        // Case-Study
+        include components/case-study.pug
+
+        // contact
+        include components/contact.pug
+
+        // footer
+        include components/footer.pug
+
+
+        +title()

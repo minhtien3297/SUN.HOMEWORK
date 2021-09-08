@@ -1,0 +1,476 @@
+<!-- social icons -->
+- const socialIcons = ["facebook-f","twitter","tumblr","vimeo-v"];
+
+<!-- user icons -->
+-
+    const userIcons = [{
+        icon:"user",
+        text:"Đăng nhập",
+        link:"sign-in.html"
+        },
+        {
+        icon:"user-plus",
+        text:"Đăng ký",
+        link:"sign-up.html"
+        }];
+
+<!-- phone icon -->
+- const phoneIcon = "fas fa-phone-alt";
+
+<!-- magnify icon -->
+- const magnifyIcon = "fas fa-search";
+
+<!-- shopping basket icon -->
+- const shoppingBasketIcon = "fas fa-shopping-basket";
+
+<!-- hamburger menu -->
+- const menu = "fas fa-bars";
+
+<!-- nav-link list -->
+-
+    const navLink = [{
+        name:"Trang chủ",
+        id: "index"
+        },
+        {
+            name: "Giới thiệu",
+            popup: true
+        },
+        {
+            name: "Sản phẩm",
+            pages:"Danh sách sản phẩm",
+            id: "product-list",
+            list: true
+        },
+        {
+            name: "Sản phẩm mới",
+            id:"",
+            list: true
+        },
+        {
+            name: "Tin tức",
+            id: "info"
+        },
+        {
+            name: "Liên hệ",
+            id: "contact"
+        }]
+
+<!-- paper plane -->
+- const paperPlaneIcon = "fas fa-paper-plane";
+
+<!-- contacts -->
+-
+    const contacts = [
+        {
+            icon:"fas fa-mobile-alt",
+            content:"Điện thoại : (84-4) 66.558.868"
+        },
+        {
+            icon:"far fa-envelope",
+            content:"Email: info@dkt.com.vn"
+        }
+    ];
+
+<!-- arrow right -->
+- const arrowRight = "fas fa-chevron-right";
+
+<!-- footer-nav -->
+-
+    const footerNav =[
+        {
+            heading:"THÔNG TIN KHÁCH HÀNG",
+            links:[
+                "Tài khoản của tôi",
+                "Sản phẩm yêu thích",
+                "Lịch sử mua hàng",
+                "Chính sách đổi trả",
+                "Góp ý, khiếu nại"
+                ]
+        },
+        {
+            heading:"HỖ TRỢ DỊCH VỤ",
+            links:[
+                "Hệ thống cửa hàng",
+                "Hướng dẫn mua hàng",
+                "Hướng dẫn thanh toán",
+                "Tích điểm đổi quà",
+                "Câu hỏi thường gặp"
+            ]
+        },
+        {
+            heading:"CHÍNH SÁCH ƯU ĐÃI",
+            links:[
+                "Chính sách giao hàng",
+                "Chính sách đổi trả sản phẩm",
+                "Chính sách bảo hành",
+                "Giới thiệu sản phẩm mới",
+                "Chính sách trả góp"
+            ]
+        },
+        {
+            heading:"TIN TỨC",
+            links:[
+                "Tin mới",
+                "Khuyến mại",
+                "Tuyển dụng",
+                "Download",
+                "Tags"
+            ],
+            new: true
+        }
+    ];
+
+<!-- helper -->
+-
+    const helper = [
+        "Sitemap",
+        "Danh mục sản phẩm",
+        "Hợp tác",
+        "Thông tin liên hệ",
+        "Câu hỏi thường gặp"
+    ];
+
+<!-- bank cards -->
+-
+    const cards = [
+        "fab fa-cc-visa",
+        "fab fa-cc-mastercard",
+        "fab fa-cc-paypal",
+        "fab fa-cc-discover"
+    ]
+
+<!-- cover slider -->
+-
+    const sliders = [
+        {
+            src:"./assets/img/covers/slide-1920x590.png",
+            alt:"banner shop",
+            active: true
+        },
+        {
+            src:"./assets/img/covers/slide-1920x590 - Copy (2).png",
+            alt:"banner shop"
+        },
+        {
+            src:"./assets/img/covers/slide-1920x590 - Copy.png",
+            alt:"banner shop"
+        }
+    ]
+
+<!-- products -->
+-
+    const products =[
+        {
+            src:"./assets/img/products/spx2-1.png",
+            alt:"flower pot",
+            name:"Cây chân chim",
+            price:"250.000 đ",
+            discount:"200.000 đ",
+            active: true
+        },
+        {
+            src:"./assets/img/products/spx2-2.png",
+            alt:"flower pot",
+            name:"Cây Dạ Lam",
+            price:"500.000 đ",
+            discount:"250.000 đ"
+        },
+        {
+            src:"./assets/img/products/spx2-3.png",
+            alt:"flower pot",
+            name:"Cây Danh Dự",
+            price:"850.000 đ",
+            discount:"250.000 đ"
+        },
+        {
+            src:"./assets/img/products/spx2-4.png",
+            alt:"flower pot",
+            name:"Cây đa búp đỏ",
+            price:"150.000 đ",
+            discount:"100.000 đ"
+        },
+        {
+            src:"./assets/img/products/spx2-5.png",
+            alt:"flower pot",
+            name:"Cây cọ ta",
+            price:"375.000 đ",
+            discount:"150.000 đ"
+        },
+        {
+            src:"./assets/img/products/spx2-6.png",
+            alt:"flower pot",
+            name:"Cây dứa nhỏ ",
+            price:"1.000.000 đ",
+            discount:"850.000 đ"
+        },
+        {
+            src:"./assets/img/products/spx2-7.png",
+            alt:"flower pot",
+            name:"Cây xương rồng ",
+            price:"375.000 đ",
+            discount:"150.000 đ"
+        },
+        {
+            src:"./assets/img/products/spx2-8.png",
+            alt:"flower pot",
+            name:"Cây dứa nhỏ ",
+            price:"250.000 đ",
+            discount:"150.000 đ"
+        },
+        {
+            src:"./assets/img/products/spx2-9.png",
+            alt:"flower pot",
+            name:"Cây đa búp đỏ",
+            price:"500.000 đ",
+            discount:"250.000 đ"
+        },
+        {
+            src:"./assets/img/products/spx2-10.png",
+            alt:"flower pot",
+            name:"Cây Danh Dự",
+            price:"1.000.000 đ",
+            discount:"375.000 đ"
+        },
+        {
+            src:"./assets/img/products/spx2-11.png",
+            alt:"flower pot",
+            name:"Cây chân chim",
+            price:"375.000 đ",
+            discount:"150.000 đ"
+        },
+        {
+            src:"./assets/img/products/spx2-12.png",
+            alt:"flower pot",
+            name:"Cây Danh Dự",
+            price:"850.000 đ",
+            discount:"250.000 đ"
+        },
+        {
+            src:"./assets/img/products/spx2-13.png",
+            alt:"flower pot",
+            name:"Cây Dạ Lam",
+            price:"250.000 đ",
+            discount:"150.000 đ"
+        },
+        {
+            src:"./assets/img/products/spx2-14.png",
+            alt:"flower pot",
+            name:"Cây cọ ta",
+            price:"500.000 đ",
+            discount:"375.000 đ"
+        },
+    ]
+
+<!-- star rating -->
+- const fullStar = "fas fa-star";
+- const halfStar = "fas fa-star-half-alt";
+
+<!-- arrow control -->
+- const prevArrow = "fas fa-arrow-circle-left";
+- const nextArrow = "fas fa-arrow-circle-right";
+
+<!-- main cover -->
+- const cover = {src: "./assets/img/covers/banner-11140x217.png", alt:"sương rông đà lạt"}
+
+<!-- news -->
+-
+    const news =[
+        {
+            src:"./assets/img/news/Hard-to-kill-indoor-plants.jpg",
+            alt:"flowers",
+            time:"Thứ 7 ,ngày 31, tháng 12, năm 2015",
+            title:"15 thiết kế phòng ngủ tuyệt đẹp làm vạn người mê ",
+            content:"Cùng Sài Gòn Hoa tìm hiểu một vài xu hướng thiết kế sân vườn được ưa chuộng hiện nay nhé !Kết hợp hàng rào"
+        },
+        {
+            src:"./assets/img/news/11248902_984651828231999_68851709_n.png",
+            alt:"flowers",
+            time:"Thứ 7 ,ngày 31, tháng 12, năm 2015",
+            title:"Tạo Tiểu Cảnh Góc Sân Cho Nhà Phố, Biệt Thự Đẹp",
+            content:"Khi bước từ ngoài ngõ vào hay từ trong nhà đi ra, góc sân luôn là điểm nhìn đầu tiên của chúng ta"
+        },
+        {
+            src:"./assets/img/news/The_Sill_84_Hester.jpg",
+            alt:"flowers",
+            time:"Thứ 7 ,ngày 31, tháng 12, năm 2015",
+            title:"Cách bố trí hoa chậu trước cửa ấn tượng",
+            content:"Như thể hiện sự thân thiện cũng như sự hiếu khách của gia chủ, phần không gian trước cửa"
+        },
+    ]
+
+<!-- products list -->
+-
+    const productList = [
+        "Cây chậu treo ( 10 )",
+        "Cây có hoa ( 5 )",
+        "Cây dây leo",
+        "Cây để bàn",
+        "Cây may mắn",
+        "Cây trang trí",
+        "Cây nội thất "
+        ]
+
+<!-- price list -->
+-
+    const priceList = [
+        "200.000 Đ - 400.000 Đ",
+        "400.000 Đ - 600.000 Đ",
+        "600.000 Đ - 800.000 Đ",
+        "800.000 Đ - 1.000.000 Đ",
+        "1.000.000 Đ - 2.000.000 Đ"
+    ]
+
+<!-- color list -->
+-
+    const colors = [
+        {
+            name:"Xanh cây",
+            color:"green"
+        },
+        {
+            name:"Đỏ cam",
+            color:"orange"
+        },
+        {
+            name:"Tím",
+            color:"purple"
+        },
+        {
+            name:"Xanh trời",
+            color:"blue"
+        },
+        {
+            name:"Vàng",
+            color:"yellow"
+        },
+        {
+            name:"Hồng",
+            color:"pink"
+        },
+    ]
+
+<!-- product list cover -->
+- const productListCover = {src: "./assets/img/news/The_Sill_84_Hester.jpg", alt:"flowers"}
+
+<!-- product list icon -->
+- const iconList = "fas fa-list";
+- const iconGrid = "fas fa-th";
+
+<!-- heart icon -->
+- const heartIcon = "fas fa-heart";
+
+<!-- plus and minus icon -->
+- const plusIcon = "fas fa-plus";
+- const minusIcon = "fas fa-minus";
+
+<!-- social share icon -->
+-
+    const socialShareIcon = [
+        {
+            name:"facebook",
+            icon:"fab fa-facebook-square",
+            content:"Like"
+        },
+        {
+            name:"twitter",
+            icon:"fab fa-twitter",
+            content:"Tweet"
+        },
+        {
+            name:"google",
+            icon: "fab fa-google-plus-g",
+            content:"1"
+        },
+        {
+            name:"blogger",
+            icon:"fas fa-plus-square",
+            content:"Share"
+        },
+    ]
+
+<!-- product detail -->
+- const productDetail = ["Tên phổ thông: Dạ lam, Huỳnh tinh cảnh, Dong vằn.","Tên khoa học: Calathea zebrina","Họ thực vật: Marantaceae (Củ dong).","Chiều cao: 0,8-1,2m","Cây dạ lam có nguồn gốc từ Brazil, được du nhập và phân bố rộng khắp ở Việt Nam.","Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m. Lá hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá nhạt màu hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt.","Cây dạ lam thuộc loại cây chịu bóng bán phần hoặc hoàn toàn, nhu cầu nước tương đối cao. Cây được nhân giống từ tách bụi, cây mọc khỏe, tốc độ sinh trưởng nhanh với sức sống mạnh.","Đây là loại cây có dáng đẹp, màu lá mướt mát, tươi khỏe, cây rất phù hợp trồng chậu trang trí nội thất-văn phòng.","Ngoài ra, cây còn có đặc điểm lọc khí, làm xanh mát môi trường, giúp điều hòa không khí, đặc biệt tốt cho những môi trường thường xuyên sử dụng các loại máy móc tảng nhiệt. Có thể bày cây ở hành lang hay ở giữa sảnh, đặt ở cạnh bàn làm việc hoặc trang trí các góc phòng có diện tích trung bình.","Quý khách có thể tham khảo thêm về cách chăm sóc cây qua bài viết sau: HD chăm sóc cây hoa cảnh"]
+
+<!-- thumbnail news -->
+-
+    const newThumbnails = [
+        {
+            src:"./assets/img/news/0801eec458d496d7ddfd5d8916126a74.jpg",
+            alt:"flowers",
+            content:"Hướng dẫn lựa chọn và bố trí cây xanh trong phòng khách"
+        },
+        {
+            src:"./assets/img/news/11248902_984651828231999_68851709_n.png",
+            alt:"flowers",
+            content:"Những sai lầm nên tránh khi bố trí cây xanh trong nhà"
+        },
+        {
+            src:"./assets/img/news/7695448750_9fa76874f5_c.jpg",
+            alt:"flowers",
+            content:"7 loại cây xanh để bàn đang được giới văn phòng ưa chuộng"
+        },
+        {
+            src:"./assets/img/news/Interior_herb_HQ157.jpg",
+            alt:"flowers",
+            content:"Hướng dẫn lựa chọn cây cảnh trang trí trong văn phòng"
+        },
+        {
+            src:"./assets/img/news/Interior_herb_HQ191.jpg",
+            alt:"flowers",
+            content:"4 loại cây cảnh thích hợp bày trí ở khu vực đại sảnh"
+        }
+    ]
+
+<!-- blog tag -->
+- const blogTag = ["Cây văn phòng","Cây phát lộc","Cây xanh","Cây trang trí","Cây","Plants","Sức khỏe","Quà tặng","Lưu niệm"]
+
+<!-- new icon -->
+-
+    const newIcon = [
+        {
+            icon:"far fa-calendar-minus",
+            content:"20/12/2015"
+        },
+        {
+            icon:"far fa-clock",
+            content:"11:20:00 AM "
+        },
+        {
+            icon:"far fa-comment-dots",
+            content:"0 Bình luận"
+        },
+    ]
+
+<!-- new detail -->
+- const newDetail = ["Cây bạch mã hoàng tử để bàn có chiều cao trung bình từ 20 – 40cm, dáng đẹp, lá cây màu xanh đậm với những đường vân vàng nhạt mọc đối xứng nhau trông rất sang trọng và lịch lãm.","Loại cây này ưa bóng, chịu được nhiệt độ thấp lại có khả năng tạo ẩm và thanh lọc không khí nên rất thích hợp đặt trong văn phòng làm việc có máy lạnh.","Cây bạch mã hoàng tử thường được chọn để đặt trên bàn làm việc của sếp, bàn nhỏ ở phòng tiếp khách hoặc bàn làm việc của các đấng mày râu.","2. Cây trầu bà đế vương","Cây trầu bà đế vương tượng trưng cho quyền uy, phong thái dẫn đầu nên thích hợp để đặt trên bàn làm việc của người lãnh đạo, quản lý doanh nghiệp.","Lá cây trầu bá đế vương khá to, dày, hơi bóng, đường gân rõ ràng, có hình dạng như hình trái tim, xòe rộng hướng lên trên trông rất bệ nghễ và cao sang.","Tùy thuộc vào sở thích cá nhân và thiết kế chủ đạo của không gian phòng làm việc, bạn có thể chọn loại trầu bà đế vương xanh, trầu bá đế vương vàng hoặc trầu bà đế vương đỏ."]
+
+<!-- user -->
+-
+    const users = [
+        {
+            name:"Nguyễn Văn An",
+        },
+        {
+            name:"Nguyễn Văn Bình",
+            subCmt: true
+        },
+        {
+            name:"Nguyễn Văn Chiến",
+        },
+    ]
+
+<!-- table -->
+- const tableHeader=["HÌNH ẢNH","TÊN SẢN PHẨM","ĐƠN GIÁ","SỐ LƯỢNG","THÀNH TIỀN", "XÓA"]
+
+- const trashIcon = "fas fa-trash-alt";
+
+<!-- popup  -->
+- const popup = {src:"./assets/img/background/flowers.png", alt:"flowers"}
+
+- const closeBtn = "fas fa-times";
+
+<!-- img/background image -->
+- const bgImg1 = "./assets/img/background/Layer 12.png";
+- const bgImg2 = "./assets/img/background/Layer 11.png";
+- const bgImg3 = "./assets/img/background/flowers.png";

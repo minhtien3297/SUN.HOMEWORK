@@ -1,0 +1,53 @@
+extends ../layouts/default-layout.pug
+
+block title
+    title Giỏ Hàng
+
+block content
+    section#cart.cart
+        // breadcrumb
+        +breadcrumb([{link:"index",name:"Home"}], "Giỏ hàng")(class="cart__container")
+
+        .container.cart__container
+            // title
+            h2.title--green GIỎ HÀNG
+
+            // table
+            table.table.mt-5
+                thead.thead
+                    each item in tableHeader
+                        th= item
+                tbody.tbody#cartTable
+
+            // button group
+            .d-flex.justify-content-end.mt-5
+                .d-flex.justify-content-between.button__group
+                    +button("HUỶ ĐƠN HÀNG")( data-bs-toggle="modal" data-bs-target="#exampleModal")
+                    a(href="product-list.html")
+                        +button("TIẾP TỤC MUA")
+
+            // total table
+            .d-flex.justify-content-end
+                table.table.total__table.mt-5.w-75
+                    tbody.tbody
+                        tr
+                            td.text--green TỔNG TIỀN  ( CHƯA THUẾ )
+                            td#totalProductPrice.text--green
+                        tr
+                            td.text--green THUẾ  (VAT 10%)
+                            td#vat.text--green
+                    tfoot.tfoot
+                        td TỔNG PHẢI THANH TOÁN
+                        td#totalPrice
+
+            // pay button
+            .d-flex.justify-content-end.mt-3
+                a(href="payment.html")
+                    +button("THANH TOÁN")
+
+            // toast
+            .toast-container.position-fixed.end-0.p-3
+                +toast("Bạn đã xoá sản phẩm thành công")(id = "deleteToast")
+
+            // modal
+            +modal("Bạn có chắc chắn muốn huỷ đơn hàng không?")

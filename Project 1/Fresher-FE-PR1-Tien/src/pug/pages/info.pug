@@ -1,0 +1,11 @@
+extends ../layouts/info-layout.pug
+
+block new
+    // news
+    .col-12.col-md-8.news
+        - for (var i = 0; i < 3; i++) {
+            +news(i,true)
+        - }
+
+        //pagination
+        +pagination
