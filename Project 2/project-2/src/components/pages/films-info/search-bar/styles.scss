@@ -1,0 +1,10 @@
+@import "../../../../index.scss";
+
+.film__search__bar {
+  margin-left: 25%;
+  margin-top: 3rem;
+  width: 30rem;
+  .ant-btn {
+    background-color: $red-color;
+  }
+}

@@ -1,0 +1,54 @@
+@import "../../index.scss";
+
+.ticket-cart {
+  padding-top: 3rem;
+  background-color: $background-color;
+
+  .ticket__table {
+    .ant-table-thead {
+      .ant-table-cell {
+        background-color: $red-color;
+        color: $white-color;
+        font-weight: bold;
+        text-align: center;
+      }
+    }
+
+    .ant-table-tbody {
+      .ant-table-cell {
+        text-align: center;
+      }
+    }
+
+    .ant-table-summary {
+      .ant-table-cell {
+        text-align: center;
+        font-weight: bold;
+      }
+    }
+
+    .delete {
+      color: $red-color;
+    }
+  }
+
+  .btn__group {
+    display: flex;
+    justify-content: flex-end;
+
+    .btn {
+      margin-right: 1rem;
+      border-radius: 12px;
+      -webkit-border-radius: 12px;
+      -moz-border-radius: 12px;
+      -ms-border-radius: 12px;
+      -o-border-radius: 12px;
+      width: 10rem;
+    }
+
+    .success {
+      background-color: $green-color;
+      border-color: $green-color;
+    }
+  }
+}

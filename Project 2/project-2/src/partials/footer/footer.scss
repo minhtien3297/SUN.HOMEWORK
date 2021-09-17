@@ -1,0 +1,39 @@
+@import "../../index.scss";
+
+.footer {
+  background-color: $background-color;
+  padding-top: 4rem;
+
+  .footer__divider {
+    border: 1px solid $black-color;
+  }
+
+  .footer__logoCJ {
+    width: 7rem;
+    margin-top: 3rem;
+
+    @include for-size(laptop) {
+      width: 12rem;
+    }
+
+    @include for-size(tablet) {
+      padding-top: 2rem;
+    }
+
+    @include for-size(mobile-sm) {
+      margin-left: 38%;
+    }
+  }
+
+  .logoCine {
+    max-width: 100%;
+  }
+
+  .footer__bottom {
+    height: 7rem;
+
+    @include for-size(laptop) {
+      height: 10rem;
+    }
+  }
+}

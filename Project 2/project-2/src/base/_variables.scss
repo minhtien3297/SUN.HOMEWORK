@@ -1,0 +1,26 @@
+//font
+$main-font: arial, sans-serif;
+
+//colors
+$background-color: #fdfcf0;
+$white-color: white;
+$dim-gray-color: #636363;
+$gray-color: #666666;
+$background-gray-color: #f1f0e5;
+$black-color: #222222;
+$red-color: #e71a0f;
+$brown-color: #717171;
+$light-brown-color: #fdfcf0;
+$green-color: #52c41a;
+$blue-color: blue;
+
+// media queries
+$breakpoints: (
+  mobile-sm: 320px,
+  mobile-md: 375px,
+  mobile: 425px,
+  tablet: 768px,
+  laptop: 1024px,
+  laptop-lg: 1440px,
+  4k: 2560px,
+);

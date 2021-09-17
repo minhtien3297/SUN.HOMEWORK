@@ -1,0 +1,10 @@
+@import "../../../index.scss";
+
+.search-bar {
+  width: 30rem;
+
+  .search__btn {
+    background-color: $orange-color;
+    padding: 0 2.5rem;
+  }
+}

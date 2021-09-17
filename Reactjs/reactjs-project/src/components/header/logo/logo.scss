@@ -1,0 +1,20 @@
+@import "../../../index.scss";
+
+.logo {
+  width: 17%;
+
+  .logo__link {
+    text-decoration: none;
+
+    .logo__image {
+      height: 60px;
+      width: 60px;
+    }
+
+    .brand__name {
+      color: $white-color;
+      font-size: 3rem;
+      font-weight: bold;
+    }
+  }
+}

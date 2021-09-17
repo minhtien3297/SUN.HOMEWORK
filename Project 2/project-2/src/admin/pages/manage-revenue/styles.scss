@@ -1,0 +1,42 @@
+@import "../../../index.scss";
+
+.manage-revenue {
+  padding-top: 3rem;
+  background-color: $background-color;
+  height: 70vh;
+
+  .title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+
+  .manage-revenue__table {
+    .ant-table-thead {
+      .ant-table-cell {
+        background-color: $red-color;
+        color: $white-color;
+        font-weight: bold;
+        text-align: center;
+      }
+    }
+
+    .ant-table-tbody {
+      .ant-table-cell {
+        text-align: center;
+      }
+    }
+
+    .ant-table-summary {
+      .ant-table-cell {
+        text-align: center;
+        font-weight: bold;
+      }
+    }
+
+    .delete__icon {
+      color: $red-color;
+    }
+  }
+}

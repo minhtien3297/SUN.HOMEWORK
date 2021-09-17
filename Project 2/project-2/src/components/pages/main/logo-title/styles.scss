@@ -1,0 +1,14 @@
+@import "../../../../index.scss";
+
+.logo-title {
+  margin: 5rem 0;
+
+  .title{
+    height: 3rem;
+  }
+
+  .ant-divider-with-text::before,
+  .ant-divider-with-text::after {
+    border-top: 10px double $black-color;
+  }
+}

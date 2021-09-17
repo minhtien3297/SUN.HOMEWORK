@@ -1,0 +1,23 @@
+@import "../../../../index.scss";
+
+.header__navbar--top {
+  .ant-menu {
+    background-color: $background-color;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+
+    .ant-menu-item,
+    .ant-menu-item-active {
+      color: $gray-color;
+      border-bottom: none;
+    }
+
+    .username {
+      color: $red-color;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+}

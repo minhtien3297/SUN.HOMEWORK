@@ -1,0 +1,14 @@
+@import "../../index.scss";
+
+.news {
+  background-color: $background-color;
+
+  .film-grid {
+    margin-top: 3rem;
+
+    .ant-pagination {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

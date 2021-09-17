@@ -1,0 +1,70 @@
+@import "../../../../index.scss";
+
+.film-modal-dialog {
+  .ant-modal-body {
+    height: 60vh;
+    background-color: $background-color;
+
+    .calendar {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 1.5rem;
+
+      .day__btn {
+        height: 3rem;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+        border: 1px solid $black-color;
+        background-color: $background-color;
+
+        &:hover,
+        &:active {
+          border: 1px solid $red-color;
+          color: $red-color;
+        }
+      }
+    }
+
+    .calendar__grid {
+      margin-top: 2rem;
+      padding-top: 2rem;
+      border-top: 2px solid $black-color;
+
+      .ant-list-empty-text {
+        display: none;
+      }
+
+      .calendar__item {
+        background-color: $background-color;
+        width: 15rem;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+
+        &:hover,
+        &:focus {
+          background-color: $black-color;
+          color: $white-color;
+        }
+      }
+    }
+
+    .purchase__btn {
+      margin-left: 5rem;
+      background-color: $red-color;
+      color: $white-color;
+      width: 5rem;
+      border-radius: 12px;
+      -webkit-border-radius: 12px;
+      -moz-border-radius: 12px;
+      -ms-border-radius: 12px;
+      -o-border-radius: 12px;
+    }
+  }
+}

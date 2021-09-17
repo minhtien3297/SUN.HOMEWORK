@@ -1,0 +1,16 @@
+@import "../../../index.scss";
+
+.film__detail__container {
+  background-color: $background-color;
+
+  .film__detail__title {
+    padding-top: 2rem;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid $black-color;
+  }
+
+  .film__detail__intro {
+    margin-bottom: 2rem;
+  }
+}

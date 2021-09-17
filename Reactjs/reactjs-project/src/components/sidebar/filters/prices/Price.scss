@@ -1,0 +1,19 @@
+@import "../../../../index.scss";
+
+.price {
+  font-size: 1.5rem;
+
+  .price-range {
+    text-decoration: none;
+    color: $black-color;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+
+  .btn__submit {
+    height: 2.5rem;
+  }
+}

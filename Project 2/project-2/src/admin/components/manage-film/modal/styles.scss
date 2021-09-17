@@ -1,0 +1,16 @@
+@import "../../../../index.scss";
+
+.modal {
+  .ant-modal-body {
+    display: flex;
+    align-items: center;
+
+    .ant-form {
+      width: -webkit-fill-available;
+    }
+
+    .modal__img{
+      height: 25rem;
+    }
+  }
+}

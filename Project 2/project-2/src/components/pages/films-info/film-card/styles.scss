@@ -1,0 +1,52 @@
+@import "../../../../index.scss";
+
+.film-card {
+  margin-bottom: 3rem;
+
+  .card {
+    border: none;
+    width: 13rem;
+
+    .ribbon {
+      position: absolute;
+      right: 0;
+      top: -1rem;
+    }
+
+    .card__img {
+      width: 13rem;
+      height: 20rem;
+      border: 8px solid $black-color;
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+
+    .ant-card-body {
+      background-color: $background-color;
+      padding-left: 0;
+      padding-top: 2px;
+      height: 8rem;
+
+      .description {
+        color: $black-color;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    .ant-card-actions {
+      border: none;
+      background-color: $background-color;
+
+      .card__btn {
+        display: flex;
+        align-items: center;
+        background-color: $red-color;
+        color: $white-color;
+        margin-left: 35%;
+      }
+    }
+  }
+}

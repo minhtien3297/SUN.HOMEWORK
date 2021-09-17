@@ -1,0 +1,12 @@
+@import "../../index.scss";
+
+.sidebar {
+  border: 1px solid black;
+  position: fixed;
+  left:0;
+  top: 80px;
+  width: 18vw;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  height: calc(100vh - 80px);
+}

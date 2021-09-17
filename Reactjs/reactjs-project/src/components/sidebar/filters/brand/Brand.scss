@@ -1,0 +1,14 @@
+@import "../../../../index.scss";
+
+.brand {
+  font-size: 1.5rem;
+
+  .input-group {
+    width: 15rem;
+    margin-bottom: 1rem;
+
+    .input-group-text {
+      background-color: transparent;
+    }
+  }
+}

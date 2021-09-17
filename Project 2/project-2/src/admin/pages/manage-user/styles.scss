@@ -1,0 +1,46 @@
+@import "../../../index.scss";
+
+.manage-user {
+  padding-top: 3rem;
+  background-color: $background-color;
+  height: 57vh;
+
+  .title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+
+  .manage-user__table {
+    .ant-table-thead {
+      .ant-table-cell {
+        background-color: $red-color;
+        color: $white-color;
+        font-weight: bold;
+        text-align: center;
+      }
+    }
+
+    .ant-table-tbody {
+      .ant-table-cell {
+        text-align: center;
+      }
+    }
+
+    .ant-table-summary {
+      .ant-table-cell {
+        text-align: center;
+        font-weight: bold;
+      }
+    }
+
+    .delete__icon {
+      color: $red-color;
+    }
+
+    .edit__icon {
+      color: $blue-color;
+    }
+  }
+}

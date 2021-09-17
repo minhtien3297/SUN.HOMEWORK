@@ -1,0 +1,23 @@
+@import "../../../index.scss";
+
+.card {
+  box-shadow: $white-color 0px 0px 3px 0px;
+
+  .card__img {
+    height: 15rem;
+    padding-top: 1rem;
+
+    .card-img-top {
+      width: auto;
+    }
+  }
+
+  .card-body {
+    height: 8rem;
+
+    .card__text--bold {
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+  }
+}

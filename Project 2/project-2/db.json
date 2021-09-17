@@ -1,0 +1,1196 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "src": "/assets/img/movies-showing/poster_lat_mat_4_160421_1__1.jpg",
+      "name": "LẬT MẶT: 48H",
+      "director": "Lý Hải",
+      "actors": "Võ Thành Tâm, Mạc Văn Khoa, Huỳnh Đông.  ",
+      "type": "Tình cảm",
+      "start": "16/04/2021",
+      "time": "115 phút",
+      "language": "Tiếng Việt - Phụ đề Tiếng Anh",
+      "intro": "Lý Hải trở lại với dòng phim hành động sở trường của mình. Bối cảnh hoành tráng với sự đầu tư nghiêm túc, siêu phẩm hành động Việt Lật Mặt 48h sẽ kể về một hành trình trốn chạy đầy kịch tính, nghẹt thở đến phút cuối cùng.",
+      "status": "now-showing"
+    },
+    {
+      "id": "2",
+      "src": "/assets/img/movies-showing/1200x1800_1.jpg",
+      "name": "BỐ GIÀ",
+      "director": "Vũ Ngọc Đãng & Trấn Thành",
+      "actors": "Trấn Thành, Tuấn Trần, Ngân Chi, NSND Ngọc Giàu, Lê Giang, Lan Phương, Hoàng Mèo, La Thành, Quốc Khánh, Lê Trang, A Quay, Bảo Phúc,…",
+      "type": "Gia đình, Hài",
+      "start": "12/03/2021",
+      "time": "128 phút"
+    },{
+      "id": "3",
+      "name": "NGƯỜI NHÂN BẢN",
+      "src": "/assets/img/movies-showing/main_poster_seobok_15_1.jpg",
+      "director": "Lee Yong Zoo",
+      "actors": "Gong Yoo, Park Bo Gum, Jo Woo Jin, Jang Young Nam, Park Byung Eun",
+      "type": "Hành Động, Khoa Học Viễn Tưởng, Tâm Lý",
+      "start": "15/04/2021",
+      "time": "114 phút",
+      "language": "Tiếng Hàn - Phụ đề Tiếng Việt",
+      "intro": "Seobok – Người Nhân Bản là câu chuyện về Ki-hun (Gong Yoo) – một cựu đặc vụ sống tách biệt với thế giới bên ngoài kể từ sau biến cố trong quá khứ, chấp nhận thực hiện nhiệm vụ cuối cùng từ Cơ quan Tình báo. Anh phải chịu trách nhiệm di chuyển Seobok (Park Bo Gum), một đối tượng thử nghiệm được tạo ra bằng cách nhân bản tế bào gốc và biến đổi gen. Tuy nhiên mọi việc không hề suôn sẻ với họ, khi Seobok trở thành mục tiêu của các thế lực khác với những tham vọng và âm mưu khó đoán. Ki-hun sẽ vượt qua tất cả những hiểm nguy đang chực chờ phía trước, hay Seobok cuối cùng sẽ rơi vào tay kẻ muốn chiếm đoạt vận mệnh của toàn nhân loại?",
+      "status": "now-showing"
+    },
+    {
+      "id": "4",
+      "src": "/assets/img/movies-showing/conan_24_-_main_poster_1__1.jpg",
+      "name": "THÁM TỬ LỪNG DANH CONAN: VIÊN ĐẠN ĐỎ",
+      "director": "Tomoka Nagaoka",
+      "actors": "Minami Hamabe, Megumi Hayashibara, Ogata Kenichi, Rikiya Koyama, Minami Takayama",
+      "type": "Hành Động, Hoạt Hình, Hồi hộp, Tình cảm, Tội phạm",
+      "start": " 23/04/2021",
+      "time": "111 phút",
+      "language": "Tiếng Nhật - Phụ đề Tiếng Việt; Lồng tiếng",
+      "intro": "Thế vận hội thể thao lớn nhất thế giới được tổ chức tại Tokyo, Nhật Bản thu hút rất nhiều sự chú ý. Khi sự kiện ra mắt con tàu siêu tốc với tốc độ 1000km/h diễn ra cũng là lúc hàng loạt các vụ bắt cóc xảy ra! Gia tộc hiểm ác tụ tập tại đây sẽ gây ra một loạt sự kiện chấn động thế giới!",
+      "theater": "",
+      "status": "now-showing"
+    },
+    {
+      "id": "5",
+      "src": "/assets/img/movies-showing/poster-the-last-warrior_1__1.jpg",
+      "name": "CHIẾN BINH CUỐI CÙNG: CỘI NGUỒN CỦA QUỶ",
+      "director": "Dmitriy Dyachenko",
+      "actors": "Viktor Khorinyak, Mila Sivatskaya, Ekaterina Vilkova",
+      "type": "Hành Động, Phiêu Lưu",
+      "start": "30/04/2021",
+      "time": "122 minutes",
+      "language": "Tiếng Nga - Phụ đề Tiếng Anh/ Tiếng Việt",
+      "intro": "Hòa bình đã được thiết lập tại Belogorie sau khi cái ác bị đánh bại và Ivan đang tận hưởng sự nổi tiếng mà anh xứng đáng. Không chỉ có được sự tín nhiệm từ gia đình, bạn bè và những điều mới lạ từ thế giới hiện đại đã mang tới cho anh một cuộc sống thoải mái, Ivan còn may mắn sở hữu thanh gươm phép thuật giúp việc di chuyển giữa hai thế giới trở nên thuận tiện hơn. Song, sự trỗi dậy của một ác quỷ cổ đại đã đe dọa thế giới ma thuật, Ivan quyết định hợp tác với những người bạn cũ và đối thủ của mình để bắt đầu cuộc hành trình dài tới vùng không gian mới, nhằm tìm cách đánh bạn kẻ thù cũng như trả lại hòa bình cho Belogorie.",
+      "theater": "",
+      "status": "now-showing"
+    },
+    {
+      "id": "6",
+      "src": "/assets/img/movies-showing/godzilla_vs_1__1.jpg",
+      "name": "GODZILLA VS. KONG",
+      "director": "Sam West",
+      "actors": "Millie Bobby Brown, Alexander Skarsgård, Rebecca Hall, Eiza González, Kyle Chandler",
+      "type": "Hành Động, Thần thoại",
+      "start": "26/03/2021",
+      "time": " 113 phút",
+      "language": "Tiếng Anh - Phụ đề Tiếng Việt, Phụ đề Tiếng Hàn - Tiếng Việt",
+      "intro": "Khi hai kẻ thù truyền kiếp gặp nhau trong một trận chiến ngoạn mục, số phận của cả thế giới vẫn còn bị bỏ ngỏ… Bị đưa khỏi Đảo Đầu Lâu, Kong cùng Jia, một cô bé mồ côi có mối liên kết mạnh mẽ với mình và đội bảo vệ đặc biệt hướng về mái nhà mới. Bất ngờ, nhóm đụng độ phải Godzilla hùng mạnh, tạo ra một làn sóng hủy diệt trên toàn cầu. Thực chất, cuộc chiến giữa hai kẻ khổng lồ dưới sự thao túng của các thế lực vô hình mới chỉ là điểm khởi đầu để khám phá những bí ẩn nằm sâu trong tâm Trái đất.",
+      "status": "now-showing"
+    },
+    {
+      "id": "7",
+      "src": "/assets/img/movies-showing/mortal_kombat_-_vn_-_payoff_poster_1_1__1.jpg",
+      "name": "MORTAL KOMBAT: CUỘC CHIẾN SINH TỬ",
+      "director": "Simon McQuoid",
+      "actors": "Lewis Tan, Jessica Mcnamee, Josh Lawson, Joe Taslim, Tadanobu Asano, Mehcad Brooks",
+      "type": "Hành Động, Phiêu Lưu",
+      "start": "09/04/2021",
+      "time": "110 phút",
+      "language": "Tiếng Anh - Phụ đề Tiếng Việt",
+      "intro": "Mortal Kombat: Cuộc Chiến Sinh Tử xoay quanh võ sĩ võ thuật tổng hợp Cole Young (Lewis Tan), người mang trên mình một vết chàm rồng đen bí ẩn - biểu tượng của Mortal Kombat. Cole Young không hề biết về dòng máu bí ẩn đang chảy trong người anh, hay vì sao anh lại bị tên sát thủ Sub-Zero (Joe Taslim) săn lùng. Vì sự an nguy của gia đình, Cole cùng với một nhóm những chiến binh đã được tuyển chọn để tham gia vào một trận chiến đẫm máu nhằm chống lại những kẻ thù đến từ Outworld.",
+      "theater": "",
+      "status": "now-showing"
+    },
+    {
+      "id": "8",
+      "src": "/assets/img/movies-showing/btdq_main_poster_1.jpg",
+      "name": "BÀN TAY DIỆT QUỶ",
+      "director": "Kim Joo Hwan",
+      "actors": "Park Seo Joon, Ahn Sung Ki, Woo Do Hwan, Choi Woo Sik…",
+      "type": "Hành Động, Kinh Dị",
+      "start": "09/04/2021",
+      "time": "128 phút",
+      "language": "Tiếng Hàn - Phụ đề tiếng Việt",
+      "intro": "Sau khi bản thân bỗng nhiên sở hữu “Bàn tay diệt quỷ”, võ sĩ MMA Yong Hoo (Park Seo Joon thủ vai) đã dấn thân vào hành trình trừ tà, trục quỷ đối đầu với Giám Mục Bóng Tối (Woo Do Hwan) – tên quỷ Satan đột lốt người. Từ đó sự thật về cái chết của cha Yong Hoo cũng dần được hé lộ cũng như nguyên nhân anh trở thành “người được chọn”.",
+      "theater": "",
+      "status": "now-showing"
+    },
+    {
+      "id": "9",
+      "src": "/assets/img/movies-showing/rsz_main_poster_cncc_1.jpg",
+      "name": "CỤC NỢ HÓA CỤC CƯNG",
+      "director": "Kang Dae Kyuv",
+      "actors": "Sung Dong Il, Ha Ji Won, Kim Hiewon, Park Soi",
+      "type": "Hài, Tâm Lý",
+      "start": "09/10/2020",
+      "time": "113 phút",
+      "language": "Tiếng Hàn - Phụ đề Tiếng Việt",
+      "intro": "Du-seok (Sung Dong Il) và Jong-bae (Kim Hiewon) là hai gã chuyên đòi nợ thuê có máu mặt. Để uy hiếp một con nợ, cả hai đã bắt Seung-yi (Park Soi) - một bé gái 9 tuổi làm vật thế chấp cho số nợ của mẹ cô bé. Tuy nhiên, mẹ của Seung-yi lại bị trục xuất về nước, và hai ông chú đành nhận trách nhiệm trông chừng Seung-yi đến khi cô bé được một gia đình giàu có nhận nuôi. Khi phát hiện ra Seung-yi nhỏ bé bị bán đi làm công cho một bà chủ vô trách nhiệm, Du-seok đã tìm đến để chuộc lại cô bé. Mặc dù Seung-yi vốn là 'cục nợ' Du-seok và Jong-bae không hề mong muốn, cô bé dần trở thành cục cưng yêu quý và cả 3 sống bên nhau như một gia đình. (CHIẾU LẠI từ 5/5/21)",
+      "theater": "",
+      "status": "now-showing"
+    },
+    {
+      "id": "10",
+      "src": "/assets/img/movies-showing/teaser_poster_1_1__1.jpg",
+      "name": "PALM SPRINGS: MỞ MẮT THẤY HÔM QUA",
+      "director": "Max Barbakow",
+      "actors": "Andy Samberg, Cristin Milioti, J.K. Simmons",
+      "type": "Hài, Tình cảm",
+      "start": "05/03/2021",
+      "time": " 89 phút",
+      "language": "Tiếng Anh - Phụ đề Tiếng Việt",
+      "intro": "Mở Mắt Thấy Hôm Qua (tựa gốc: Palm Springs) – đúng như tên gọi, bộ phim là một vòng lặp bất tận của thời gian, với thật nhiều những rắc rối lặp đi lặp lại không có điểm dừng. Anh chàng Nyles (Andy Samberg) và nàng phù dâu bất đắc dĩ Sarah (Cristin Milioti) tình cờ gặp nhau tại đám cưới ở Palm Springs, mọi thứ trở nên phức tạp khi Nyles và Sarah “mắc kẹt” mãi ở ngày vui của người khác. Trong khi Sarah điên cuồng tìm cách thoát ra thì Nyles bình thản chấp nhận sống lại ngày hôm qua thêm một lần nữa. Họ sẽ làm gì để có thể thoát khỏi nơi này, thoát khỏi những vấn đề của chính mình khi giờ đây còn “vướng” phải nhau nữa? (CHIẾU LẠI từ 5/5/21)",
+      "theater": "",
+      "status": "now-showing"
+    },
+    {
+      "id": "11",
+      "src": "/assets/img/movies-showing/main-poster_ms1_1.jpg",
+      "name": "ĐIỆP VIÊN SIÊU LẦY",
+      "director": "Peter Segal",
+      "actors": "Dave Bautista, Chloe Coleman, Kristen Schaal, Ken Jeongs",
+      "type": "Hài, Hành Động",
+      "start": "14/08/2020",
+      "time": "101 phút",
+      "language": "Tiếng Anh - Phụ đề Tiếng Việt",
+      "intro": "Jason Jones, hay còn gọi là JJ (Dave Bautista) – một điệp viên CIA dày dạn kinh nghiệm. Trong một lần thực địa, JJ bị cô bé 9 tuổi Sophie (Chloe Coleman) phát hiện và uy hiếp anh phải “gia sư” môn điệp viên cho mình nếu không muốn cả thế giới biết thân phận thực sự của anh. Mắc kẹt bên cô học trò lắm mưu nhiều mẹo, JJ dần phát hiện ra Sophie thực sự có tố chất và năng khiếu bẩm sinh cho việc trở thành điệp viên. (CHIẾU LẠI từ 5/5/21)",
+      "theater": "",
+      "status": "now-showing"
+    },
+    {
+      "id": "12",
+      "src": "/assets/img/movies-showing/main_poster_mtb_1__1.jpg",
+      "name": "ONG NHÍ PHIÊU LƯU KÝ: GIẢI CỨU CÔNG CHÚA KIẾN",
+      "director": "Noel Cleary",
+      "actors": "Coco Jack Gillies, Evie Gillies, Benson Jack Anthony, Justine Clarke, Shane Dundas; David Collins",
+      "type": "Hoạt Hình",
+      "start": "23/04/2021",
+      "time": "88 phút",
+      "language": "Tiếng Anh - Phụ đề Tiếng Việt; Lồng tiếng",
+      "intro": "Quá háo hức chào đón mùa xuân, Maya và Willy đã thức dậy khỏi giấc ngủ đông sớm hơn thời gian dự định. Từ đây, đôi bạn vô tình phải nhận một nhiệm vụ đặc biệt – bảo vệ và đưa quả trứng vàng đến ngôi nhà mới. Tuy nhiên, mọi rắc rối bắt đầu ập đến khi quả trứng nứt và cô công chúa kiến bé nhỏ ra đời. Maya, Willy và những người bạn đồng hành phải phối hợp cùng nhau để chăm sóc và bảo vệ công chúa kiến khỏi vô vàn nguy hiểm xung quanh. Trong hành trình đầy bất ngờ và gian nan này, Willy dần dần khám phá được một khía cạnh khác của bản thân – dịu dàng và kiên nhẫn với cô công chúa nhỏ. Bộ đôi Maya và Willy cũng đã trưởng thành hơn và tình bạn giữa họ càng trở nên thêm khăng khít và gắn bó.",
+      "theater": "",
+      "status": "now-showing"
+    },
+    {
+      "id": "13",
+      "src": "/assets/img/movies-showing/boss_level_-_payoff_poster_1__1.jpg",
+      "name": "TRÙM CUỐI SIÊU ĐẲNG",
+      "director": " Joe Carnahan",
+      "actors": "Frank Grillo, Mel Gibson, Naomi Watts, Dương Tử Quỳnh, Annabelle Wallis, Ken Jeong, Will Sasso, ….",
+      "type": "Hành Động, Hồi hộp",
+      "start": "23/04/2021",
+      "time": "101 phút",
+      "language": "Tiếng Anh - Phụ đề Tiếng Việt",
+      "intro": "Mắc kẹt trong một vòng lặp thời gian ngay đúng ngày anh ta bị giết chết, một cựu đặc vụ Roy Pulver (Frank Gillo) đã phát hiện ra manh mới về một dự án bí mật của chính phủ có thể giải đáp bí ẩn đằng sau cái chết vô thời hạn của anh ta. Roy buộc lòng phải chạy đua với thời gian và truy bắt tên Colonel Ventor (Mel Gibson), đầu sỏ của dự án chính phủ này. Trong lúc đó, anh phải thoát khỏi cuộc vây bắt của những tên sát thủ tàn ác quyết tâm ngăn cản Roy tìm ra được sự thật. Liệu Roy Pulver có thể thoát khỏi vòng lặp này và cứu lấy gia đình đồng thời sống lại một lần nữa vào ngày mai?",
+      "theater": "",
+      "status": "now-showing"
+    },
+    {
+      "id": "14",
+      "src": "/assets/img/movies-incoming/cktt_teaser_digital_1__1.jpg",
+      "name": "CHÌA KHÓA TRĂM TỶ",
+      "director": "Võ Thanh Hoà",
+      "actors": "Kiều Minh Tuấn, Thu Trang, Jun Vũ, Anh Tú, Puka, NSUT Kim Xuân, La Thành",
+      "type": "Hài, Hành Động",
+      "start": "",
+      "time": "",
+      "language": "Tiếng Việt - Phụ đề Tiếng Anh",
+      "intro": "Chìa Khoá Trăm Tỷ bắt đầu khi một sát thủ khét tiếng vô tình bị mất trí vì một tai nạn bất ngờ, rồi bắt đầu một cuộc sống mới bằng nghề diễn viên quần chúng. Chuyện gì sẽ xảy ra nếu chàng diễn viên quần chúng này quên hẳn cuộc đời sát thủ để trở thành một ngôi sao hành động? Liệu sự nghiệp diễn viên và cô quản lý bất đắc dĩ có giúp hắn thay đổi quá khứ mãi mãi và sống trọn vẹn một cuộc đời mới? Một bộ phim hài-hành động nhưng cũng đầy sự ấm áp về hành trình 'đổi đời' của một kẻ giết thuê để mưu sinh",
+      "theater": "",
+      "status": "incoming"
+    },
+    {
+      "id": "15",
+      "src": "/assets/img/movies-incoming/578_poster_1.jpeg",
+      "name": "578 PHÁT ĐẠN CỦA KẺ ĐIÊN",
+      "director": "Lương Đình Dũng",
+      "actors": "Minh Quang Nguyễn, Thanh Thảo, H’Hen Niê, Hoàng Phúc, Ngọc Tình, Tuấn “Hạc”, Jessica Minh Anh, Nguyễn Lâm Thảo Tâm, Hà Văn Hiếu ...",
+      "type": "Hành Động",
+      "start": "",
+      "time": "",
+      "language": "Tiếng Việt - Phụ đề Tiếng Anh",
+      "intro": "Hùng, một người cha sẵn sàng đánh đổi mọi thứ, thậm chí đặt mạng sống của mình vào hiểm nguy trong cuộc truy đuổi đơn độc nhưng vô cùng khốc liệt với kẻ ác để tìm lại công lý cho cô con gái bé nhỏ của mình. Nhưng điều anh không ngờ rằng phía sau kẻ ác đó lại là cả một thế lực ngầm …",
+      "theater": "",
+      "status": "incoming"
+    },
+    {
+      "id": "16",
+      "src": "/assets/img/movies-incoming/poster_sntg_2_1__1.jpg",
+      "name": "SÁT NHÂN TRONG GƯƠNG",
+      "director": "Nia DaCosta",
+      "actors": "Yahya Abdul-Mateen II, Teyonah Parris, Nathan Stewart-Jarrett, Colman Domingo",
+      "type": "Kinh Dị",
+      "start": "",
+      "time": "",
+      "language": "Tiếng Việt - Phụ đề Tiếng Anh",
+      "intro": "Từ lúc nào không ai hay biết, các dự án nhà ở tại khu Cabrini-Green ở Chicago đã bị khủng bố bởi câu chuyện truyền miệng về một kẻ giết người siêu nhiên với chiếc tay móc câu. Hắn có thể dễ dàng được triệu tập nếu bạn dám nhắc lại tên hắn năm lần trước gương. Ngày nay, một thập kỷ sau khi tòa tháp Cabrini cuối cùng bị phá hủy, nghệ sĩ thị giác Anthony McCoy và người yêu của anh, giám đốc phòng trưng bày Brianna Cartwright di chuyển vào một căn hộ gác xép sang trọng ở Cabrini, giờ đây được cải tạo lại và định cư bởi thế hệ người trẻ năng động. Khi sự nghiệp vẽ tranh của Anthony đang trên bờ vực đình trệ, cuộc gặp gỡ tình cờ với một cư dân cũ của khu Cabrini-Green phơi bày cho Anthony sự thật kinh hoàng về câu chuyện Candyman. Lo lắng để duy trì vị thế của mình trong giới nghệ thuật Chicago, Anthony bắt đầu phát hiện những chi tiết rùng rợn trong xưởng vẽ của mình và anh cũng lấy chúng làm cảm hứng cho các tác phẩm mới. Anh không hề hay biết những điều này đang vô tình mở ra một cánh cửa dẫn tới quá khứ phức tạp, đưa anh tới định mệnh của chính mình. Từ đó anh dần trở nên mất tỉnh táo và rơi sâu hơn vào vòng xoáy bạo lực đáng sợ.",
+      "theater": "",
+      "status": "incoming"
+    },
+    {
+      "id": "17",
+      "src": "/assets/img/movies-incoming/er2_officialposter_4x5_fb_1__1.jpg",
+      "name": "CĂN PHÒNG TỬ THẦN: CÁI CHẾT TRỞ LẠI",
+      "director": "Adam Robitel",
+      "actors": "Holland Roden, Isabelle Fuhrma, Taylor Russell, Logan Miller",
+      "type": " Kinh Dị",
+      "start": "",
+      "time": "",
+      "language": "Tiếng Anh - Phụ đề Tiếng Việt",
+      "intro": "Căn Phòng Tử Thần: Cái Chết Trở Lại đưa những người từng thắng cuộc vào các căn phòng bị khóa kín. Hoặc họ phải tìm cách thoát ra, hoặc họ phải bỏ mạng trong đó. Ở lần trở lại này, quy mô và độ khó của căn phòng được nâng lên gấp bội, khiến các người chơi phải vận dụng cả trí óc, sức lực, tinh thần đồng đội và nhất là phải dẹp bỏ cảm giác hả hê để có thể sống đến giây phút cuối cùng.",
+      "theater": "",
+      "status": "incoming"
+    },
+    {
+      "id": "18",
+      "src": "/assets/img/movies-incoming/i_-_main_poster_1__1.jpg",
+      "name": "ĐỨA BÉ",
+      "director": "Kim Hyun Tak",
+      "actors": "Kim Hyang Gi, Ryoo Hyoun Kyoung",
+      "type": "Tâm Lý",
+      "start": "",
+      "time": "",
+      "language": "Tiếng Hàn - Phụ đề tiếng Việt",
+      "intro": "Do miếng cơm manh áo, cô sinh viên A Young đành chấp nhận công việc trông trẻ cho bà mẹ đơn thân Young Chae. Tuy nhiên khi phát hiện chị ta vì quá khó khăn mà định đưa đứa bé vào trại mồ côi, nàng ta đã quyết tâm ngăn cản vì A Young cũng là một đứa trẻ lớn lên trong cô nhi viện với nhiều đau thương và đơn độc.",
+      "theater": "",
+      "status": "incoming"
+    },
+    {
+      "id": "19",
+      "src": "/assets/img/movies-incoming/_m-tr_i-bu_c-poster_1.jpg",
+      "name": "ĐÊM TRÓI BUỘC",
+      "director": "Kourosh Ahari",
+      "actors": "Shahab Hosseini; Niousha Noor; Leah Oganyan; Kathreen Khavari",
+      "type": "Hồi hộp, Kinh Dị",
+      "start": "",
+      "time": "",
+      "language": "Tiếng Ba Tư & Tiếng Anh - Phụ đề Tiếng Việt",
+      "intro": "‘Đêm Trói Buộc’ kể về câu chuyện của một cặp vợ chồng người Iran (do Shahab Hosseini and Niousha Jafarian thủ vai) và đứa con gái một tuổi phát hiện họ bị nhốt bên trong khách sạn cũ và bị lực lượng ngoại bang cưỡng bức. Song tại đây, họ phải đối mặt với những bí mật mà cả hai đã âm thầm chôn giấu người bạn đời của mình.",
+      "theater": "",
+      "status": "incoming"
+    },
+    {
+      "id": "20",
+      "src": "/assets/img/movies-incoming/poster_vdcl_2_4_1__1.jpg",
+      "name": "VÙNG ĐẤT CÂM LẶNG II",
+      "director": " John Krasinski",
+      "actors": "Cillian Murphy, Emily Blunt, Noah Jupe",
+      "type": "Kinh Dị",
+      "start": "",
+      "time": "",
+      "language": "Tiếng Anh - Phụ đề Tiếng Việt",
+      "intro": "Phần hai tiếp nối các sự kiện xảy ra trong phần một, khi gia đình Abbot gồm người mẹ Evelyn (do Emily Blunt thủ vai) cùng ba con chạy trốn đến một thành phố tưởng như an toàn. Tuy nhiên, cả gia đình không ngờ rằng ở thế giới bên ngoài cũng đã bị những sinh vật ngoài hành tinh thâu tóm. Những sinh vật này khiếm khuyết về thị giác nhưng có thính giác siêu nhạy để săn mồi bằng cách lần theo âm thanh. “Vùng đất câm lặng” lúc này đã trở thành “thế giới câm lặng” khi những người sống sót tiếp tục phải lẩn trốn, không được tạo ra tiếng động mỗi khi di chuyển hay giao tiếp với nhau. Nhưng càng bước ra ngoài thế giới, gia đình Abbot sớm nhận ra rằng hiểm họa duy nhất không chỉ đến từ những sinh vật ngoài hành tinh. Những bí ẩn xung quanh cuộc đổ bộ của các giống loài này dần được hé lộ…",
+      "theater": "",
+      "status": "incoming"
+    },
+    {
+      "id": "21",
+      "src": "/assets/img/movies-incoming/ff9-fast-furious-9-cgv-poster_1.jpg",
+      "name": "FAST & FURIOUS 9",
+      "director": "Justin Lin",
+      "actors": "Charlize Theron, Jim Parrack, John Cena",
+      "type": "Hành Động, Phiêu Lưu",
+      "start": "",
+      "time": "",
+      "language": "Tiếng Anh và phụ đề tiếng Việt",
+      "intro": "Plot unknown. The ninth installment of the 'Fast and Furious' franchise.",
+      "theater": "",
+      "status": "incoming"
+    },
+    {
+      "id": "22",
+      "src": "/assets/img/movies-incoming/in-the-heights-teaser-poster_1.jpg",
+      "name": "IN THE HEIGHTS: GIẤC MƠ NEW YORK",
+      "director": "Jon M. Chu",
+      "actors": "Anthony Ramos, Corey Hawkins, Leslie Grace, Melissa Barrera, Daphne Rubin-Vega, Gregory Diaz IV, Stephanie Beatriz, Dascha Polanco, Jimmy Smits",
+      "type": "Nhạc kịch, Tâm Lý, Tình cảm",
+      "start": "",
+      "time": "",
+      "language": "Tiếng Anh - Phụ đề Tiếng Việt",
+      "intro": "Lấy bối cảnh khu phố Washington Heights của New York, nội dung phim xoay quanh hành trình thực hiện giấc mơ trở thành ca sĩ nổi tiếng của anh chủ quán bar Usnavi. Vốn là nơi có không khí luôn dâng đầy nguồn cảm hứng bất tận cho âm nhạc, từ hương cà phê thoang thoảng khắp không gian, cho đến trạm dừng tàu điện ngầm trên con đường 181, nên rất nhiều người tại đây luôn biết cách ngân nga những bài hát mình yêu thích. Còn với Usnavi, anh luôn nỗ lực tiết kiệm từng đồng mỗi ngày, ôm giấc mơ về một cuộc sống tràn ngập âm nhạc cùng với những người bạn của mình.",
+      "theater": "",
+      "status": "incoming"
+    },
+    {
+      "id": "23",
+      "src": "/assets/img/movies-incoming/poster_hitman_bodyguard_1__1.jpg",
+      "name": "VỆ SĨ SÁT THỦ 2: NHÀ CÓ NÓC",
+      "director": "Patrick Hughes",
+      "actors": "Ryan Reynolds, Samuel L. Jackson, Frank Grillo, Salma Hayek, Morgan Freeman",
+      "type": "Hài, Hành Động",
+      "start": "",
+      "time": "",
+      "language": "Tiếng Anh - Phụ đề Tiếng Việt",
+      "intro": "Bộ đôi chết chóc nhất quả đất: vệ sĩ Michael Bryce và sát thủ Darius Kincaid đã bung nóc trở lại cùng 'Vệ Sĩ Sát Thủ 2' Chuyên viên an ninh cao cấp Michael Bryce quyết định nghỉ xả hơi buông lơi 2 từ VỆ SĨ. Ăn chơi chưa được bao lâu, Michael Bryce một lần nữa buộc phải làm bạn thân cùng sát thủ khét tiếng Darius Kincaid trong phi vụ tréo ngoe: cứu lấy nóc nhà của tay sát thủ.",
+      "theater": "",
+      "status": "incoming"
+    },
+    {
+      "id": "24",
+      "src": "/assets/img/movies-incoming/fb-teaser-poster-dem-toi-ruc-ro_1__1.jpg",
+      "name": "ĐÊM TỐI RỰC RỠ",
+      "director": "Aaron Toronto",
+      "actors": "Kiến An, Phương Dung, Nhã Uyên, Xuân Thanh, Diễm Phương, Kim B",
+      "type": " Hồi hộp, Tâm Lý",
+      "start": "",
+      "time": "",
+      "language": "Tiếng Việt - Phụ đề Tiếng Anh",
+      "intro": "Khi người ông qua đời, cả gia đình của Xuân Thanh (Nhã Uyên) tề tựu để đưa tiễn. Đám tang diễn ra hoành tráng, xôm tụ và đầy màu sắc. Bỗng dưng một đám người kéo đến đòi nợ trong sự ngỡ ngàng của tất cả. Những bí mật bị phanh phui, bi kịch chồng bi kịch, như một hệ luỵ tổn thương của nạn bạo hành gia đình đầy ám ảnh.",
+      "theater": "",
+      "status": "incoming"
+    },
+    {
+      "id": "25",
+      "src": "/assets/img/movies-incoming/poster_vdsn_2_1__1.jpg",
+      "name": "VÔ DIỆN SÁT NHÂN",
+      "director": "Đinh Công Hiếu",
+      "actors": "Phương Anh Đào, Quách Ngọc Tuyên, Hiếu Nguyễn, Oanh Kiều",
+      "type": "Kinh Dị",
+      "start": "",
+      "time": "",
+      "language": "Tiếng Việt - Phụ đề Tiếng Anh",
+      "intro": "Phuong Anh is a young and talented doctor whose life seems to be perfect. However, she is struggling in a series of nightmares about a faceless killer which is keep hunting for her to the real life. Phuong Anh decides to rescue herself. Who is the“Faceless killer”? What terrify truth is behind the these secrets? Cast: Phương Anh Đào, Oanh Kiều, Hiếu Nguyễn, Quách Ngọc Tuyên, Hoàng Phúc...",
+      "theater": "",
+      "status": "incoming"
+    }
+  ],
+  "theaters": [
+    {
+      "name": "Hồ Chí Minh",
+      "list": [
+        "CGV Hùng Vương Plaza",
+        "CGV Crescent Mall",
+        "CGV Thảo Điền Pearl",
+        "CGV Vincom Thủ Đức",
+        "CGV Vivo City",
+        "CGV Pearl Plaza",
+        "CGV Liberty Citypoint",
+        "CGV Vincom Đồng Khởi",
+        "CGV Trường Sơn CGV CT Plaza"
+      ]
+    },
+    {
+      "name": "Hà Nội",
+      "list": [
+        "CGV Vincom Center Bà Triệu",
+        "CGV Mipec Tower",
+        "CGV Hồ Gươm Plaza",
+        "CGV Aeon Long Biên",
+        "CGV Vincom Nguyễn Chí Thanh",
+        "CGV Indochina Plaza Hà Nội"
+      ]
+    },
+    {
+      "name": "Đà Nẵng",
+      "list": ["CGV Vĩnh Trung Plaza", "CGV Vincom Đà Nẵng"]
+    },
+    {
+      "name": "Cần Thơ"
+    },
+    {
+      "name": "Đồng Nai"
+    },
+    {
+      "name": "Hải Phòng"
+    },
+    {
+      "name": "Quảng Ninh"
+    },
+    {
+      "name": "Bà Rịa-Vũng Tàu"
+    },
+    {
+      "name": "Bình Định"
+    },
+    {
+      "name": "Bình Dương"
+    },
+    {
+      "name": "Đắk Lắk"
+    },
+    {
+      "name": "Trà Vinh"
+    },
+    {
+      "name": "Yên Bái"
+    },
+    {
+      "name": "Vĩnh Long"
+    },
+    {
+      "name": "Kiên Giang"
+    },
+    {
+      "name": "Hậu Giang"
+    },
+    {
+      "name": "Hà Tĩnh"
+    },
+    {
+      "name": "Phú Yên"
+    },
+    {
+      "name": "Đồng Tháp"
+    },
+    {
+      "name": "Hưng Yên"
+    },
+    {
+      "name": "Khánh Hòa"
+    },
+    {
+      "name": "Kon Tum"
+    },
+    {
+      "name": "Lạng Sơn"
+    },
+    {
+      "name": "Nghệ An"
+    },
+    {
+      "name": "Quảng Ngãi"
+    },
+    {
+      "name": "Sóc Trăng"
+    },
+    {
+      "name": "Sơn La"
+    },
+    {
+      "name": "Tây Ninh"
+    },
+    {
+      "name": "Thái Nguyên"
+    },
+    {
+      "name": "Tiền Giang"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "isAdmin": false,
+      "email": "minh@minh.com",
+      "password": "12345",
+      "username": "tien dao minh",
+      "phone": 12345566,
+      "gender": "nam"
+    },
+    {
+      "id": 2,
+      "isAdmin": true,
+      "email": "minh@minh.com",
+      "password": "123",
+      "username": "tien minh",
+      "phone": 12345566,
+      "gender": "nam"
+    },
+    {
+      "id": 3,
+      "isAdmin": false,
+      "email": "minh@tien.com",
+      "password": "123",
+      "username": "tien minh dao",
+      "phone": "123450888",
+      "gender": "nam"
+    },
+    {
+      "id": 4,
+      "isAdmin": false,
+      "email": "minh@tien123.com",
+      "password": "123",
+      "username": "dao minh tien dev ",
+      "phone": "123450888",
+      "gender": "nam"
+    },
+    {
+      "id": 5,
+      "isAdmin": false,
+      "email": "daominhtien@gmail.com",
+      "password": "123",
+      "username": "dao minh tien dev 123",
+      "phone": "1243546800",
+      "gender": "nam"
+    }
+  ],
+  "movieCalendars": [
+    {
+      "id": 1,
+      "movie": "LẬT MẶT: 48H",
+      "days": [
+        {
+          "day": "Oct 23, 2021",
+          "places": [
+            {
+              "city": "Hồ Chí Minh",
+              "showTime": [
+                {
+                  "theater": "CGV Hùng Vương Plaza",
+                  "time": ["15:30 PM", "20:00 PM"]
+                },
+                {
+                  "theater": "CGV Crescent Mall",
+                  "time": ["12:30 PM", "22:00 PM"]
+                }
+              ]
+            },
+            {
+              "city": "Hà Nội",
+              "showTime": [
+                {
+                  "theater": "CGV Vincom Center Bà Triệu",
+                  "time": ["11:30 PM"]
+                }
+              ]
+            },
+            {
+              "city": "Đà Nẵng",
+              "showTime": [
+                {
+                  "theater": "CGV Vĩnh Trung Plaza",
+                  "time": ["14:30 PM", "20:00 PM"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Oct 24, 2021",
+          "places": [
+            {
+              "city": "Hồ Chí Minh",
+              "showTime": [
+                {
+                  "theater": "CGV Liberty Citypoint",
+                  "time": ["15:30 PM"]
+                },
+                {
+                  "theater": "CGV Crescent Mall",
+                  "time": ["12:30 PM", "22:00 PM"]
+                }
+              ]
+            },
+            {
+              "city": "Hà Nội",
+              "showTime": [
+                {
+                  "theater": "CGV Hồ Gươm Plaza",
+                  "time": ["11:30 PM"]
+                }
+              ]
+            },
+            {
+              "city": "Đà Nẵng",
+              "showTime": [
+                { "theater": "CGV Vĩnh Trung Plaza", "time": "20:00 PM" }
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Oct 26, 2021",
+          "places": [
+            {
+              "city": "Hồ Chí Minh",
+              "showTime": [
+                {
+                  "theater": "CGV Hùng Vương Plaza",
+                  "time": ["15:30 PM", "20:00 PM"]
+                }
+              ]
+            },
+            {
+              "city": "Hà Nội",
+              "showTime": [
+                {
+                  "theater": "CGV Vincom Center Bà Triệu",
+                  "time": ["11:30 PM"]
+                },
+                {
+                  "theater": "CGV Aeon Long Biên",
+                  "time": ["11:30 PM"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Oct 27, 2021",
+          "places": [
+            {
+              "city": "Hồ Chí Minh",
+              "showTime": [
+                {
+                  "theater": "CGV Hùng Vương Plaza",
+                  "time": ["15:30 PM", "20:00 PM"]
+                },
+                {
+                  "theater": "CGV Crescent Mall",
+                  "time": ["12:30 PM", "22:00 PM"]
+                }
+              ]
+            },
+            {
+              "city": "Hà Nội",
+              "showTime": [
+                {
+                  "theater": "CGV Vincom Center Bà Triệu",
+                  "time": ["11:30 PM"]
+                }
+              ]
+            },
+            {
+              "city": "Đà Nẵng",
+              "showTime": [
+                {
+                  "theater": "CGV Vĩnh Trung Plaza",
+                  "time": ["14:30 PM", "20:00 PM"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "movie": "BỐ GIÀ",
+      "days": [
+        {
+          "day": "Oct 23, 2021",
+          "places": [
+            {
+              "city": "Hồ Chí Minh",
+              "showTime": [
+                {
+                  "theater": "CGV Hùng Vương Plaza",
+                  "time": ["15:30 PM", "20:00 PM"]
+                },
+                {
+                  "theater": "CGV Crescent Mall",
+                  "time": ["12:30 PM", "22:00 PM"]
+                }
+              ]
+            },
+            {
+              "city": "Hà Nội",
+              "showTime": [
+                {
+                  "theater": "CGV Vincom Center Bà Triệu",
+                  "time": ["11:30 PM"]
+                }
+              ]
+            },
+            {
+              "city": "Đà Nẵng",
+              "showTime": [
+                {
+                  "theater": "CGV Vĩnh Trung Plaza",
+                  "time": ["14:30 PM", "20:00 PM"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Oct 24, 2021",
+          "places": [
+            {
+              "city": "Hồ Chí Minh",
+              "showTime": [
+                {
+                  "theater": "CGV Liberty Citypoint",
+                  "time": ["15:30 PM"]
+                },
+                {
+                  "theater": "CGV Crescent Mall",
+                  "time": ["12:30 PM", "22:00 PM"]
+                }
+              ]
+            },
+            {
+              "city": "Hà Nội",
+              "showTime": [
+                {
+                  "theater": "CGV Hồ Gươm Plaza",
+                  "time": ["11:30 PM"]
+                }
+              ]
+            },
+            {
+              "city": "Đà Nẵng",
+              "showTime": [
+                {
+                  "theater": "CGV Vĩnh Trung Plaza",
+                  "time": ["14:30 PM", "20:00 PM"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Oct 26, 2021",
+          "places": [
+            {
+              "city": "Hồ Chí Minh",
+              "showTime": [
+                {
+                  "theater": "CGV Hùng Vương Plaza",
+                  "time": ["15:30 PM", "20:00 PM"]
+                }
+              ]
+            },
+            {
+              "city": "Hà Nội",
+              "showTime": [
+                {
+                  "theater": "CGV Vincom Center Bà Triệu",
+                  "time": ["11:30 PM"]
+                },
+                {
+                  "theater": "CGV Aeon Long Biên",
+                  "time": ["11:30 PM"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Oct 27, 2021",
+          "places": [
+            {
+              "city": "Hồ Chí Minh",
+              "showTime": [
+                {
+                  "theater": "CGV Hùng Vương Plaza",
+                  "time": ["15:30 PM", "20:00 PM"]
+                },
+                {
+                  "theater": "CGV Crescent Mall",
+                  "time": ["12:30 PM", "22:00 PM"]
+                }
+              ]
+            },
+            {
+              "city": "Hà Nội",
+              "showTime": [
+                {
+                  "theater": "CGV Vincom Center Bà Triệu",
+                  "time": ["11:30 PM"]
+                }
+              ]
+            },
+            {
+              "city": "Đà Nẵng",
+              "showTime": [
+                {
+                  "theater": "CGV Vĩnh Trung Plaza",
+                  "time": ["14:30 PM", "20:00 PM"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "movie": "NGƯỜI NHÂN BẢN",
+      "days": [
+        {
+          "day": "Oct 23, 2021",
+          "places": [
+            {
+              "city": "Hồ Chí Minh",
+              "showTime": [
+                {
+                  "theater": "CGV Hùng Vương Plaza",
+                  "time": ["15:30 PM", "20:00 PM"]
+                },
+                {
+                  "theater": "CGV Crescent Mall",
+                  "time": ["12:30 PM", "22:00 PM"]
+                }
+              ]
+            },
+            {
+              "city": "Hà Nội",
+              "showTime": [
+                {
+                  "theater": "CGV Vincom Center Bà Triệu",
+                  "time": ["11:30 PM"]
+                }
+              ]
+            },
+            {
+              "city": "Đà Nẵng",
+              "showTime": [
+                {
+                  "theater": "CGV Vĩnh Trung Plaza",
+                  "time": ["14:30 PM", "20:00 PM"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Oct 24, 2021",
+          "places": [
+            {
+              "city": "Hồ Chí Minh",
+              "showTime": [
+                {
+                  "theater": "CGV Liberty Citypoint",
+                  "time": ["15:30 PM"]
+                },
+                {
+                  "theater": "CGV Crescent Mall",
+                  "time": ["12:30 PM", "22:00 PM"]
+                }
+              ]
+            },
+            {
+              "city": "Hà Nội",
+              "showTime": [
+                {
+                  "theater": "CGV Hồ Gươm Plaza",
+                  "time": ["11:30 PM"]
+                }
+              ]
+            },
+            {
+              "city": "Đà Nẵng",
+              "showTime": [
+                {
+                  "theater": "CGV Vĩnh Trung Plaza",
+                  "time": ["14:30 PM", "20:00 PM"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Oct 26, 2021",
+          "places": [
+            {
+              "city": "Hồ Chí Minh",
+              "showTime": [
+                {
+                  "theater": "CGV Hùng Vương Plaza",
+                  "time": ["15:30 PM", "20:00 PM"]
+                }
+              ]
+            },
+            {
+              "city": "Hà Nội",
+              "showTime": [
+                {
+                  "theater": "CGV Vincom Center Bà Triệu",
+                  "time": ["11:30 PM"]
+                },
+                {
+                  "theater": "CGV Aeon Long Biên",
+                  "time": ["11:30 PM"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Oct 27, 2021",
+          "places": [
+            {
+              "city": "Hồ Chí Minh",
+              "showTime": [
+                {
+                  "theater": "CGV Hùng Vương Plaza",
+                  "time": ["15:30 PM", "20:00 PM"]
+                },
+                {
+                  "theater": "CGV Crescent Mall",
+                  "time": ["12:30 PM", "22:00 PM"]
+                }
+              ]
+            },
+            {
+              "city": "Hà Nội",
+              "showTime": [
+                {
+                  "theater": "CGV Vincom Center Bà Triệu",
+                  "time": ["11:30 PM"]
+                }
+              ]
+            },
+            {
+              "city": "Đà Nẵng",
+              "showTime": [
+                {
+                  "theater": "CGV Vĩnh Trung Plaza",
+                  "time": ["14:30 PM", "20:00 PM"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ticketCart": [
+    {
+      "0": {
+        "movie": "LẬT MẶT: 48H",
+        "day": "Oct 24, 2021",
+        "time": "15:30 PM",
+        "theater": "CGV Liberty Citypoint",
+        "user": "tien1234",
+        "price": 49000,
+        "quantity": 2
+      },
+      "1": {
+        "movie": "LẬT MẶT: 48H",
+        "day": "Oct 26, 2021",
+        "time": "11:30 PM",
+        "theater": "CGV Aeon Long Biên",
+        "user": "tien1234",
+        "price": 49000,
+        "quantity": 1
+      },
+      "id": 1
+    },
+    {
+      "0": {
+        "movie": "LẬT MẶT: 48H",
+        "day": "Oct 24, 2021",
+        "time": "15:30 PM",
+        "theater": "CGV Liberty Citypoint",
+        "user": "tien1234",
+        "price": 49000,
+        "quantity": 2
+      },
+      "1": {
+        "movie": "LẬT MẶT: 48H",
+        "day": "Oct 26, 2021",
+        "time": "11:30 PM",
+        "theater": "CGV Aeon Long Biên",
+        "user": "tien1234",
+        "price": 49000,
+        "quantity": 1
+      },
+      "id": 2
+    },
+    {
+      "0": {
+        "movie": "LẬT MẶT: 48H",
+        "day": "Oct 24, 2021",
+        "time": "15:30 PM",
+        "theater": "CGV Liberty Citypoint",
+        "user": "tien1234",
+        "price": 49000,
+        "quantity": 2
+      },
+      "1": {
+        "movie": "LẬT MẶT: 48H",
+        "day": "Oct 26, 2021",
+        "time": "11:30 PM",
+        "theater": "CGV Aeon Long Biên",
+        "user": "tien1234",
+        "price": 49000,
+        "quantity": 1
+      },
+      "id": 3
+    },
+    {
+      "0": {
+        "movie": "LẬT MẶT: 48H",
+        "day": "Oct 24, 2021",
+        "time": "15:30 PM",
+        "theater": "CGV Liberty Citypoint",
+        "user": "tien1234",
+        "price": 49000,
+        "quantity": 1
+      },
+      "id": 4
+    },
+    {
+      "0": {
+        "movie": "BỐ GIÀ",
+        "day": "Oct 26, 2021",
+        "time": "20:00 PM",
+        "theater": "CGV Hùng Vương Plaza",
+        "user": "dao minh tien dev",
+        "price": 49000,
+        "quantity": 1
+      },
+      "1": {
+        "movie": "NGƯỜI NHÂN BẢN",
+        "day": "Oct 26, 2021",
+        "time": "15:30 PM",
+        "theater": "CGV Hùng Vương Plaza",
+        "user": "dao minh tien dev",
+        "price": 49000,
+        "quantity": 1
+      },
+      "id": 5
+    },
+    {
+      "0": {
+        "movie": "NGƯỜI NHÂN BẢN",
+        "day": "Oct 27, 2021",
+        "time": "15:30 PM",
+        "theater": "CGV Hùng Vương Plaza",
+        "user": "dao minh tien front-end ",
+        "price": 49000,
+        "quantity": 1
+      },
+      "id": 6
+    },
+    {
+      "0": {
+        "movie": "NGƯỜI NHÂN BẢN",
+        "day": "Oct 27, 2021",
+        "time": "15:30 PM",
+        "theater": "CGV Hùng Vương Plaza",
+        "user": "dao minh tien dev front-end",
+        "price": 49000,
+        "quantity": 1
+      },
+      "1": {
+        "movie": "NGƯỜI NHÂN BẢN",
+        "day": "Oct 26, 2021",
+        "time": "11:30 PM",
+        "theater": "CGV Aeon Long Biên",
+        "user": "dao minh tien dev front-end",
+        "price": 49000,
+        "quantity": 1
+      },
+      "id": 7
+    },
+    {
+      "0": {
+        "movie": "BỐ GIÀ",
+        "day": "Oct 26, 2021",
+        "time": "20:00 PM",
+        "theater": "CGV Hùng Vương Plaza",
+        "user": "dao minh tien",
+        "price": 49000,
+        "quantity": 1
+      },
+      "1": {
+        "movie": "BỐ GIÀ",
+        "day": "Oct 27, 2021",
+        "time": "15:30 PM",
+        "theater": "CGV Hùng Vương Plaza",
+        "user": "dao minh tien",
+        "price": 49000,
+        "quantity": 1
+      },
+      "id": 8
+    },
+    {
+      "0": {
+        "movie": "LẬT MẶT: 48H",
+        "day": "Oct 26, 2021",
+        "time": "15:30 PM",
+        "theater": "CGV Hùng Vương Plaza",
+        "user": "dao minh tien dev ",
+        "price": 49000,
+        "quantity": 1
+      },
+      "1": {
+        "movie": "LẬT MẶT: 48H",
+        "day": "Oct 27, 2021",
+        "time": "11:30 PM",
+        "theater": "CGV Vincom Center Bà Triệu",
+        "user": "dao minh tien dev ",
+        "price": 49000,
+        "quantity": 1
+      },
+      "id": 9
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "content": "phim hay qua",
+      "movie": "BỐ GIÀ",
+      "author": "dao minh tien dev"
+    },
+    {
+      "content": "phim hay qua",
+      "author": "dao minh tien abc",
+      "movie": "LẬT MẶT: 48H",
+      "id": 2
+    },
+    {
+      "content": "phim hay",
+      "author": "dao minh tien front-end ",
+      "movie": "NGƯỜI NHÂN BẢN",
+      "id": 3
+    },
+    {
+      "content": "phim hay",
+      "author": "dao minh tien dev front-end",
+      "movie": "BỐ GIÀ",
+      "id": 4
+    },
+    {
+      "content": "phim hay",
+      "author": "dao minh tien",
+      "movie": "THÁM TỬ LỪNG DANH CONAN: VIÊN ĐẠN ĐỎ",
+      "id": 5
+    },
+    {
+      "content": "phim hay ",
+      "author": "dao minh tien dev ",
+      "movie": "LẬT MẶT: 48H",
+      "id": 6
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "src": "/assets/img/news/_CGV_L_u_ng_240_x_201.jpg",
+      "srcDetail": "/assets/img/news-detail/_CGV_L_u_ng_350_x_495.jpg",
+      "content": "Là công ty tiên phong cung cấp dịch vụ điện ảnh TỐT NHẤT cho khách hàng theo cách KHÁC BIỆT và với mong muốn đa dạng hóa trải nghiệm cho khách hàng, CGV sẽ mang tới dịch vụ hoàn toàn mới và chuyên nghiệp: Chiếu Phim Lưu Động.Từ nay, CGV sẽ mang rạp chiếu phim đến tận nơi để khán giả có thể thưởng thức bộ phim hấp dẫn ngay tại văn phòng, công ty, xí nghiệp, hội trường đại học, sân trường các trường học trên toàn quốc. ",
+      "day": "23/10/2021"
+    },
+    {
+      "id": 2,
+      "src": "/assets/img/news/3thang-240x201.jpg",
+      "srcDetail": "/assets/img/news-detail/nguoicu-350x495.jpg",
+      "content": "Là công ty tiên phong cung cấp dịch vụ điện ảnh TỐT NHẤT cho khách hàng theo cách KHÁC BIỆT và với mong muốn đa dạng hóa trải nghiệm cho khách hàng, CGV sẽ mang tới dịch vụ hoàn toàn mới và chuyên nghiệp: Chiếu Phim Lưu Động.Từ nay, CGV sẽ mang rạp chiếu phim đến tận nơi để khán giả có thể thưởng thức bộ phim hấp dẫn ngay tại văn phòng, công ty, xí nghiệp, hội trường đại học, sân trường các trường học trên toàn quốc. ",
+      "day": "09/10/2021"
+    },
+    {
+      "id": 3,
+      "src": "/assets/img/news/240x201_1.jpg",
+      "srcDetail": "/assets/img/news-detail/350x495_1.jpg",
+      "content": "Là công ty tiên phong cung cấp dịch vụ điện ảnh TỐT NHẤT cho khách hàng theo cách KHÁC BIỆT và với mong muốn đa dạng hóa trải nghiệm cho khách hàng, CGV sẽ mang tới dịch vụ hoàn toàn mới và chuyên nghiệp: Chiếu Phim Lưu Động.Từ nay, CGV sẽ mang rạp chiếu phim đến tận nơi để khán giả có thể thưởng thức bộ phim hấp dẫn ngay tại văn phòng, công ty, xí nghiệp, hội trường đại học, sân trường các trường học trên toàn quốc. ",
+      "day": "01/10/2021"
+    },
+    {
+      "id": 4,
+      "src": "/assets/img/news/240x201_4.jpg",
+      "srcDetail": "/assets/img/news-detail/350x495_4.jpg",
+      "content": "Là công ty tiên phong cung cấp dịch vụ điện ảnh TỐT NHẤT cho khách hàng theo cách KHÁC BIỆT và với mong muốn đa dạng hóa trải nghiệm cho khách hàng, CGV sẽ mang tới dịch vụ hoàn toàn mới và chuyên nghiệp: Chiếu Phim Lưu Động.Từ nay, CGV sẽ mang rạp chiếu phim đến tận nơi để khán giả có thể thưởng thức bộ phim hấp dẫn ngay tại văn phòng, công ty, xí nghiệp, hội trường đại học, sân trường các trường học trên toàn quốc. ",
+      "day": "30/09/2021"
+    },
+    {
+      "id": 5,
+      "src": "/assets/img/news/240x201_5.jpg",
+      "srcDetail": "/assets/img/news-detail/350x495_5.jpg",
+      "content": "Là công ty tiên phong cung cấp dịch vụ điện ảnh TỐT NHẤT cho khách hàng theo cách KHÁC BIỆT và với mong muốn đa dạng hóa trải nghiệm cho khách hàng, CGV sẽ mang tới dịch vụ hoàn toàn mới và chuyên nghiệp: Chiếu Phim Lưu Động.Từ nay, CGV sẽ mang rạp chiếu phim đến tận nơi để khán giả có thể thưởng thức bộ phim hấp dẫn ngay tại văn phòng, công ty, xí nghiệp, hội trường đại học, sân trường các trường học trên toàn quốc. ",
+      "day": "11/09/2021"
+    },
+    {
+      "id": 6,
+      "src": "/assets/img/news/CGV_LIVE-RS_240x201_copy.jpg",
+      "srcDetail": "/assets/img/news-detail/CGV_LIVE-RS_350x495_copy.jpg",
+      "content": "Là công ty tiên phong cung cấp dịch vụ điện ảnh TỐT NHẤT cho khách hàng theo cách KHÁC BIỆT và với mong muốn đa dạng hóa trải nghiệm cho khách hàng, CGV sẽ mang tới dịch vụ hoàn toàn mới và chuyên nghiệp: Chiếu Phim Lưu Động.Từ nay, CGV sẽ mang rạp chiếu phim đến tận nơi để khán giả có thể thưởng thức bộ phim hấp dẫn ngay tại văn phòng, công ty, xí nghiệp, hội trường đại học, sân trường các trường học trên toàn quốc. ",
+      "day": "15/10/2021"
+    },
+    {
+      "id": 7,
+      "src": "/assets/img/news/240x201.jpg",
+      "srcDetail": "/assets/img/news-detail/350x495.jpg",
+      "content": "Là công ty tiên phong cung cấp dịch vụ điện ảnh TỐT NHẤT cho khách hàng theo cách KHÁC BIỆT và với mong muốn đa dạng hóa trải nghiệm cho khách hàng, CGV sẽ mang tới dịch vụ hoàn toàn mới và chuyên nghiệp: Chiếu Phim Lưu Động.Từ nay, CGV sẽ mang rạp chiếu phim đến tận nơi để khán giả có thể thưởng thức bộ phim hấp dẫn ngay tại văn phòng, công ty, xí nghiệp, hội trường đại học, sân trường các trường học trên toàn quốc. ",
+      "day": "16/09/2021"
+    },
+    {
+      "id": 8,
+      "src": "/assets/img/news/pannadau-240x201.jpg",
+      "srcDetail": "/assets/img/news-detail/pannadau-350x495.jpg",
+      "content": "Là công ty tiên phong cung cấp dịch vụ điện ảnh TỐT NHẤT cho khách hàng theo cách KHÁC BIỆT và với mong muốn đa dạng hóa trải nghiệm cho khách hàng, CGV sẽ mang tới dịch vụ hoàn toàn mới và chuyên nghiệp: Chiếu Phim Lưu Động.Từ nay, CGV sẽ mang rạp chiếu phim đến tận nơi để khán giả có thể thưởng thức bộ phim hấp dẫn ngay tại văn phòng, công ty, xí nghiệp, hội trường đại học, sân trường các trường học trên toàn quốc. ",
+      "day": "04/09/2021"
+    }
+  ]
+}

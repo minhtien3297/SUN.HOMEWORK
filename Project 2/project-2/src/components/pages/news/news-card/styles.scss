@@ -1,0 +1,43 @@
+@import "../../../../index.scss";
+
+.news-card {
+  margin-bottom: 3rem;
+
+  .card {
+    border: none;
+    width: 13rem;
+
+    .card__img {
+      box-shadow: 3px 3px 3px $gray-color;
+      width: 17rem;
+      height: 15rem;
+    }
+
+    .bold {
+      font-size: 2rem;
+      color: $red-color;
+      margin-left: 1rem;
+    }
+
+    .ant-card-body {
+      background-color: $background-color;
+      padding-left: 0;
+      padding-top: 2px;
+      height: 3rem;
+
+      .description {
+        color: $black-color;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-top: 1rem;
+
+        .day {
+          font-size: 1rem;
+          margin-left: 1rem;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

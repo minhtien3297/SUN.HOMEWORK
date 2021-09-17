@@ -1,0 +1,9 @@
+@import "../../../../index.scss";
+
+.log-in {
+    margin-top: 2rem;
+  .login__btn {
+    background-color: $red-color;
+    color: $white-color;
+  }
+}

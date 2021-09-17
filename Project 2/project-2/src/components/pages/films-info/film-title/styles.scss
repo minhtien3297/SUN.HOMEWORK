@@ -1,0 +1,20 @@
+@import "../../../../index.scss";
+
+.film__title {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid $black-color;
+
+  &__current {
+    font-size: 3.5rem;
+    padding-bottom: 1rem;
+  }
+
+  &__redirect {
+    font-size: 2rem;
+    padding-top: 1rem;
+    color: $gray-color;
+  }
+}

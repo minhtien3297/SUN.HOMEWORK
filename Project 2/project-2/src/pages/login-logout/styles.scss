@@ -1,0 +1,21 @@
+@import "../../index.scss";
+
+.login-logout {
+  background-color: $background-color;
+  padding-top: 2rem;
+
+  .tabs {
+    .ant-tabs-nav-wrap {
+      background-color: $red-color;
+      color: $white-color;
+
+      .ant-tabs-tab-btn {
+        color: $white-color;
+      }
+
+      .ant-tabs-ink-bar {
+        background-color: $white-color;
+      }
+    }
+  }
+}

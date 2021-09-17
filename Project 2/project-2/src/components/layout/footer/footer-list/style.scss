@@ -1,0 +1,42 @@
+@import "../../../../index.scss";
+
+.footer__list {
+  .ant-list-header {
+    border-bottom: none;
+    padding-bottom: 0.5rem;
+
+    .footer__list__header {
+      color: $dim-gray-color;
+      font-weight: bold;
+      font-size: 1.2rem;
+
+      @include for-size(mobile-sm) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+
+  .ant-list-item {
+    border-bottom: none;
+    padding: 0;
+
+    .ant-list-item-meta-description {
+      @include for-size(mobile-sm) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    .footer__list__img {
+      max-width: 100%;
+    }
+
+    .footer__list__description {
+      @extend .ant-list-item-meta-description;
+      color: $gray-color;
+    }
+  }
+}

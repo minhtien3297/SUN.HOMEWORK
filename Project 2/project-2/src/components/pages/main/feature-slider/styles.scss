@@ -1,0 +1,77 @@
+@import "../../../../index.scss";
+
+.feature-slider {
+  margin-top: 5rem;
+
+  .slide {
+    position: relative;
+
+    .slide__container {
+      position: relative;
+
+      .ribbon {
+        position: absolute;
+        right: 0;
+      }
+
+      .slide__movie {
+        max-width: 100%;
+        width: 97%;
+        height: 25rem;
+
+        @include for-size(mobile){
+          height: 45rem;
+        }
+      }
+
+      .slide__event {
+        @extend .slide__movie;
+
+        height: 12rem;
+
+        @include for-size(mobile){
+          height: 30rem;
+        }
+      }
+    }
+
+    .slick-prev,
+    .slick-next {
+      color: $white-color;
+      font-size: 2rem;
+      width: 2.5rem;
+      height: 2.5rem;
+      padding: 2px;
+      background-color: $red-color;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      z-index: 1;
+    }
+
+    .slick-prev {
+      left: -3rem;
+
+      @include for-size(laptop) {
+        left: 0;
+      }
+    }
+
+    .slick-next {
+      right: -3rem;
+
+      @include for-size(laptop) {
+        right: 0;
+      }
+    }
+
+    .slick-prev:hover,
+    .slick-next:hover,
+    .slick-prev:focus,
+    .slick-next:focus {
+      color: $white-color;
+    }
+  }
+}

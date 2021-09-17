@@ -1,0 +1,23 @@
+@import "../../../index.scss";
+
+.categories {
+  .category__link {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    color: $black-color;
+
+    &:focus {
+      color: $red-color;
+    }
+
+    .fas {
+      font-size: 0.9rem;
+      margin-right: 0.5rem;
+    }
+  }
+
+  .accordion-collapse {
+    margin-bottom: 0.5rem;
+  }
+}
